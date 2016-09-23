@@ -1,4 +1,4 @@
 # Structural-Models
-Structural Equation Modeling to ensure tests function equivalently across cultures
+Structural Equation Modeling to ensure tests/assessments function equivalently across cultures
 
 Analyzed using LISREL
