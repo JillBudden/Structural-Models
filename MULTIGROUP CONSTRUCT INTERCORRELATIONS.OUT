@@ -1,0 +1,617 @@
+
+                                DATE:  8/ 9/2007
+                                  TIME:  9:31
+
+
+                         LISREL 8.80 (STUDENT EDITION)
+
+                                       BY
+
+                         Karl G. J”reskog & Dag S”rbom
+
+
+
+                    This program is published exclusively by
+                    Scientific Software International, Inc.
+                       7383 N. Lincoln Avenue, Suite 100
+                        Lincolnwood, IL 60712, U.S.A. 
+            Phone: (800)247-6113, (847)675-0720, Fax: (847)675-2140
+        Copyright by Scientific Software International, Inc., 1981-2006 
+          Use of this program is subject to the terms specified in the
+                        Universal Copyright Convention.
+                          Website: www.ssicentral.com
+
+ The following lines were read from file C:\Documents and Settings\jbudden\Desktop\SIOP\ANALYSES\MULTIGROUP CONSTRUCT INTERCORRELATIONS.LS8:
+
+ MULTIGROUP CONSTRUCT INTERCORRELATIONS INVARIANT UNITED STATES
+ DA NI=15 NO=361 MA=CM NG=2
+ LA
+ x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15
+ KM FU FI=USLISRELDATA.txt
+ SD
+ .755 .914 .864 .933 .648 .784 .712 1.015 .577 .868 1.159 .550 .890 .781 1.075
+ SE
+ 1 3 2 4 6 8 11 5 7 9 10 12 13 14 15 /
+ MO NX=15 NK=5 LX=FU,FI TD=DI,FR PH=SY,FR
+ LK
+ 'JOB CONTENT' 'JOB PREDICTIVE' 'TESTING ENVIRONMENT' 'USABILITY' 'PREVIOUS JOB SEARCH'
+ PA LX
+ 0 0 0 0 0
+ 1 0 0 0 0
+ 0 0 0 0 0
+ 0 1 0 0 0
+ 0 0 0 0 0
+ 0 0 1 0 0
+ 0 0 1 0 0
+ 0 0 0 0 0
+ 0 0 0 1 0
+ 0 0 0 1 0
+ 0 0 0 1 0
+ 0 0 0 1 0
+ 0 0 0 0 0
+ 0 0 0 0 1
+ 0 0 0 0 1
+ VA 1.0 LX(1,1) LX(3,2) LX(5,3) LX(8,4) LX(13,5)
+ PATH DIAGRAM
+ OU ME=ML ND=3 SS
+
+ MULTIGROUP CONSTRUCT INTERCORRELATIONS INVARIANT UNITED STATES                 
+
+                           Number of Input Variables 15
+                           Number of Y - Variables    0
+                           Number of X - Variables   15
+                           Number of ETA - Variables  0
+                           Number of KSI - Variables  5
+                           Number of Observations   361
+                           Number of Groups           2
+ MULTIGROUP CONSTRUCT INTERCORRELATIONS INVARIANT
+ DA NI=15 NO=335 MA=CM
+ LA
+ x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15
+ KM FU FI=ASIALISRELDATA.txt
+ SD
+ .673 .915 .777 .951 .762 .914 1.010 1.045 .657 1.097 1.167 .753 .805 .846 1.139
+ SE
+ 1 3 2 4 6 8 11 5 7 9 10 12 13 14 15 /
+ MO LX=IN TD=PS PH=IN
+ LK
+ 'JOB CONTENT' 'JOB PREDICTIVE' 'TESTING ENVIRONMENT' 'USABILITY' 'PREVIOUS JOB SEARCH'
+ OU
+
+ MULTIGROUP CONSTRUCT INTERCORRELATIONS INVARIANT                               
+
+                           Number of Input Variables 15
+                           Number of Y - Variables    0
+                           Number of X - Variables   15
+                           Number of ETA - Variables  0
+                           Number of KSI - Variables  5
+                           Number of Observations   335
+                           Number of Groups           2
+
+ MULTIGROUP CONSTRUCT INTERCORRELATIONS INVARIANT UNITED STATES                 
+
+         Covariance Matrix       
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+       x1      0.570
+       x3      0.294      0.746
+       x2      0.213      0.221      0.835
+       x4      0.176      0.294      0.521      0.870
+       x6      0.103      0.047      0.061      0.039      0.615
+       x8      0.168      0.039      0.090      0.075      0.466      1.030
+      x11      0.179      0.105      0.139      0.138      0.436      0.856
+       x5      0.137      0.079      0.076      0.066      0.164      0.178
+       x7      0.162      0.098      0.032      0.041      0.188      0.267
+       x9      0.081      0.016      0.003      0.025      0.166      0.180
+      x10      0.160      0.100      0.131      0.104      0.281      0.254
+      x12      0.130      0.077      0.049      0.043      0.158      0.179
+      x13      0.066     -0.013     -0.015     -0.002      0.123      0.210
+      x14      0.094      0.003      0.006      0.022      0.127      0.182
+      x15      0.075      0.093      0.098      0.105      0.152      0.263
+
+         Covariance Matrix       
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+      x11      1.343
+       x5      0.131      0.420
+       x7      0.247      0.197      0.507
+       x9      0.137      0.196      0.182      0.333
+      x10      0.303      0.188      0.204      0.247      0.753
+      x12      0.160      0.177      0.169      0.204      0.207      0.303
+      x13      0.191      0.115      0.165      0.186      0.148      0.156
+      x14      0.150      0.123      0.156      0.156      0.119      0.158
+      x15      0.308      0.084      0.143      0.122      0.130      0.131
+
+         Covariance Matrix       
+
+                 x13        x14        x15   
+            --------   --------   --------
+      x13      0.792
+      x14      0.579      0.610
+      x15      0.521      0.444      1.156
+
+ MULTIGROUP CONSTRUCT INTERCORRELATIONS INVARIANT                               
+
+         Covariance Matrix       
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+       x1      0.453
+       x3      0.190      0.604
+       x2      0.179      0.260      0.837
+       x4      0.163      0.280      0.562      0.904
+       x6      0.043      0.154      0.024      0.048      0.835
+       x8      0.094      0.175      0.092      0.130      0.501      1.092
+      x11      0.038      0.204      0.053      0.099      0.623      0.845
+       x5      0.157      0.147      0.094      0.108      0.249      0.172
+       x7      0.091      0.122      0.120      0.121      0.245      0.292
+       x9      0.113      0.112      0.075      0.078      0.157      0.190
+      x10      0.127      0.089     -0.003      0.015      0.351      0.324
+      x12      0.100      0.095      0.072      0.034      0.268      0.275
+      x13      0.121      0.069      0.069      0.056      0.052      0.076
+      x14      0.104      0.080      0.114      0.096      0.073      0.086
+      x15      0.054      0.173      0.154      0.169      0.231      0.299
+
+         Covariance Matrix       
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+      x11      1.362
+       x5      0.192      0.581
+       x7      0.288      0.286      1.020
+       x9      0.213      0.228      0.290      0.432
+      x10      0.498      0.213      0.411      0.302      1.203
+      x12      0.373      0.243      0.230      0.197      0.316      0.567
+      x13      0.034      0.203      0.102      0.147      0.102      0.139
+      x14      0.079      0.148      0.079      0.131      0.087      0.146
+      x15      0.327      0.129      0.191      0.113      0.147      0.162
+
+         Covariance Matrix       
+
+                 x13        x14        x15   
+            --------   --------   --------
+      x13      0.648
+      x14      0.511      0.716
+      x15      0.390      0.407      1.297
+
+
+ MULTIGROUP CONSTRUCT INTERCORRELATIONS INVARIANT UNITED STATES                 
+
+ Parameter Specifications
+
+ LAMBDA-X EQUALS LAMBDA-X IN THE FOLLOWING GROUP
+
+ PHI EQUALS PHI IN THE FOLLOWING GROUP
+
+         THETA-DELTA 
+
+                  x1         x3         x2         x4         x6         x8
+            --------   --------   --------   --------   --------   --------
+                  26         27         28         29         30         31
+
+         THETA-DELTA 
+
+                 x11         x5         x7         x9        x10        x12
+            --------   --------   --------   --------   --------   --------
+                  32         33         34         35         36         37
+
+         THETA-DELTA 
+
+                 x13        x14        x15
+            --------   --------   --------
+                  38         39         40
+
+
+ MULTIGROUP CONSTRUCT INTERCORRELATIONS INVARIANT                               
+
+ Parameter Specifications
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS
+            --------   --------   --------   --------   --------
+       x1          0          0          0          0          0
+       x3          1          0          0          0          0
+       x2          0          0          0          0          0
+       x4          0          2          0          0          0
+       x6          0          0          0          0          0
+       x8          0          0          3          0          0
+      x11          0          0          4          0          0
+       x5          0          0          0          0          0
+       x7          0          0          0          5          0
+       x9          0          0          0          6          0
+      x10          0          0          0          7          0
+      x12          0          0          0          8          0
+      x13          0          0          0          0          0
+      x14          0          0          0          0          9
+      x15          0          0          0          0         10
+
+         PHI         
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS
+            --------   --------   --------   --------   --------
+ JOB CONT         11
+ JOB PRED         12         13
+ TESTING          14         15         16
+ USABILIT         17         18         19         20
+ PREVIOUS         21         22         23         24         25
+
+         THETA-DELTA 
+
+                  x1         x3         x2         x4         x6         x8
+            --------   --------   --------   --------   --------   --------
+                  41         42         43         44         45         46
+
+         THETA-DELTA 
+
+                 x11         x5         x7         x9        x10        x12
+            --------   --------   --------   --------   --------   --------
+                  47         48         49         50         51         52
+
+         THETA-DELTA 
+
+                 x13        x14        x15
+            --------   --------   --------
+                  53         54         55
+ 
+
+
+ MULTIGROUP CONSTRUCT INTERCORRELATIONS INVARIANT UNITED STATES                 
+
+ Number of Iterations = 10
+
+ LISREL Estimates (Maximum Likelihood)                           
+
+ LAMBDA-X EQUALS LAMBDA-X IN THE FOLLOWING GROUP
+
+ PHI EQUALS PHI IN THE FOLLOWING GROUP
+
+         THETA-DELTA 
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               0.325      0.460      0.332      0.328      0.344      0.217
+             (0.034)    (0.047)    (0.054)    (0.057)    (0.030)    (0.037)
+               9.500      9.739      6.135      5.786     11.544      5.904
+
+         THETA-DELTA 
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               0.492      0.244      0.320      0.128      0.496      0.118
+             (0.054)    (0.021)    (0.027)    (0.013)    (0.041)    (0.012)
+               9.136     11.692     11.923      9.833     12.140      9.733
+
+         THETA-DELTA 
+
+                 x13        x14        x15   
+            --------   --------   --------
+               0.150      0.089      0.761
+             (0.026)    (0.021)    (0.059)
+               5.785      4.266     12.805
+
+         Squared Multiple Correlations for X - Variables         
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               0.387      0.373      0.613      0.630      0.477      0.784
+
+         Squared Multiple Correlations for X - Variables         
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               0.650      0.450      0.413      0.625      0.378      0.629
+
+         Squared Multiple Correlations for X - Variables         
+
+                 x13        x14        x15   
+            --------   --------   --------
+               0.797      0.849      0.318
+
+
+                         Group Goodness of Fit Statistics
+
+                       Contribution to Chi-Square = 205.890
+                  Percentage Contribution to Chi-Square = 49.547
+ 
+                     Root Mean Square Residual (RMR) = 0.0478
+                            Standardized RMR = 0.0650
+                       Goodness of Fit Index (GFI) = 0.930
+
+ MULTIGROUP CONSTRUCT INTERCORRELATIONS INVARIANT UNITED STATES                 
+
+ Within Group Standardized Solution           
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+       x1      0.453       - -        - -        - -        - - 
+       x3      0.524       - -        - -        - -        - - 
+       x2       - -       0.724       - -        - -        - - 
+       x4       - -       0.748       - -        - -        - - 
+       x6       - -        - -       0.560       - -        - - 
+       x8       - -        - -       0.888       - -        - - 
+      x11       - -        - -       0.956       - -        - - 
+       x5       - -        - -        - -       0.447       - - 
+       x7       - -        - -        - -       0.475       - - 
+       x9       - -        - -        - -       0.461       - - 
+      x10       - -        - -        - -       0.548       - - 
+      x12       - -        - -        - -       0.448       - - 
+      x13       - -        - -        - -        - -       0.768
+      x14       - -        - -        - -        - -       0.706
+      x15       - -        - -        - -        - -       0.596
+
+         PHI                                     
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+ JOB CONT      1.000
+ JOB PRED      0.618      1.000
+ TESTING       0.284      0.139      1.000
+ USABILIT      0.462      0.170      0.545      1.000
+ PREVIOUS      0.198      0.081      0.212      0.428      1.000
+
+
+ MULTIGROUP CONSTRUCT INTERCORRELATIONS INVARIANT                               
+
+ Number of Iterations = 10
+
+ LISREL Estimates (Maximum Likelihood)                           
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+       x1      1.000       - -        - -        - -        - - 
+       x3      1.157       - -        - -        - -        - - 
+             (0.116)
+               9.933
+       x2       - -       1.000       - -        - -        - - 
+       x4       - -       1.033       - -        - -        - - 
+                        (0.090)
+                         11.413
+       x6       - -        - -       1.000       - -        - - 
+       x8       - -        - -       1.586       - -        - - 
+                                   (0.090)
+                                    17.673
+      x11       - -        - -       1.707       - -        - - 
+                                   (0.098)
+                                    17.462
+       x5       - -        - -        - -       1.000       - - 
+       x7       - -        - -        - -       1.063       - - 
+                                              (0.083)
+                                               12.735
+       x9       - -        - -        - -       1.033       - - 
+                                              (0.067)
+                                               15.405
+      x10       - -        - -        - -       1.228       - - 
+                                              (0.098)
+                                               12.526
+      x12       - -        - -        - -       1.004       - - 
+                                              (0.066)
+                                               15.119
+      x13       - -        - -        - -        - -       1.000
+      x14       - -        - -        - -        - -       0.920
+                                                         (0.041)
+                                                          22.595
+      x15       - -        - -        - -        - -       0.776
+                                                         (0.053)
+                                                          14.614
+
+         PHI         
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+ JOB CONT      0.205
+             (0.029)
+               6.990
+ JOB PRED      0.203      0.524
+             (0.024)    (0.059)
+               8.310      8.843
+ TESTING       0.072      0.056      0.314
+             (0.015)    (0.019)    (0.034)
+               4.853      2.896      9.249
+ USABILIT      0.094      0.055      0.136      0.199
+             (0.014)    (0.016)    (0.015)    (0.023)
+               6.902      3.402      8.838      8.635
+ PREVIOUS      0.069      0.045      0.091      0.147      0.590
+             (0.019)    (0.025)    (0.019)    (0.018)    (0.044)
+               3.649      1.768      4.676      8.154     13.440
+
+         THETA-DELTA 
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               0.286      0.340      0.293      0.327      0.463      0.361
+             (0.032)    (0.040)    (0.052)    (0.056)    (0.041)    (0.048)
+               8.997      8.477      5.603      5.818     11.419      7.516
+
+         THETA-DELTA 
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               0.391      0.351      0.720      0.215      0.838      0.340
+             (0.055)    (0.032)    (0.060)    (0.022)    (0.071)    (0.031)
+               7.175     11.091     11.944      9.744     11.781     11.070
+
+         THETA-DELTA 
+
+                 x13        x14        x15   
+            --------   --------   --------
+               0.109      0.233      0.990
+             (0.030)    (0.030)    (0.080)
+               3.683      7.703     12.337
+
+         Squared Multiple Correlations for X - Variables         
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               0.417      0.446      0.642      0.631      0.404      0.686
+
+         Squared Multiple Correlations for X - Variables         
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               0.700      0.362      0.238      0.497      0.264      0.372
+
+         Squared Multiple Correlations for X - Variables         
+
+                 x13        x14        x15   
+            --------   --------   --------
+               0.844      0.681      0.264
+
+
+                        Global Goodness of Fit Statistics
+
+                             Degrees of Freedom = 185
+               Minimum Fit Function Chi-Square = 415.545 (P = 0.0)
+       Normal Theory Weighted Least Squares Chi-Square = 425.017 (P = 0.0)
+                Estimated Non-centrality Parameter (NCP) = 240.017
+           90 Percent Confidence Interval for NCP = (183.848 ; 303.905)
+ 
+                        Minimum Fit Function Value = 0.599
+                Population Discrepancy Function Value (F0) = 0.346
+             90 Percent Confidence Interval for F0 = (0.265 ; 0.438)
+             Root Mean Square Error of Approximation (RMSEA) = 0.0611
+           90 Percent Confidence Interval for RMSEA = (0.0535 ; 0.0688)
+              P-Value for Test of Close Fit (RMSEA < 0.05) = 0.00881
+ 
+                  Expected Cross-Validation Index (ECVI) = 0.771
+            90 Percent Confidence Interval for ECVI = (0.690 ; 0.863)
+                         ECVI for Saturated Model = 0.346
+                       ECVI for Independence Model = 8.483
+ 
+     Chi-Square for Independence Model with 210 Degrees of Freedom = 5857.408
+                           Independence AIC = 5917.408
+                               Model AIC = 535.017
+                             Saturated AIC = 480.000
+                           Independence CAIC = 6083.769
+                               Model CAIC = 840.011
+                            Saturated CAIC = 1810.884
+ 
+                          Normed Fit Index (NFI) = 0.929
+                       Non-Normed Fit Index (NNFI) = 0.954
+                    Parsimony Normed Fit Index (PNFI) = 0.818
+                       Comparative Fit Index (CFI) = 0.959
+                       Incremental Fit Index (IFI) = 0.959
+                         Relative Fit Index (RFI) = 0.919
+ 
+                            Critical N (CN) = 389.574
+ 
+
+
+                         Group Goodness of Fit Statistics
+
+                       Contribution to Chi-Square = 209.655
+                  Percentage Contribution to Chi-Square = 50.453
+ 
+                     Root Mean Square Residual (RMR) = 0.0660
+                            Standardized RMR = 0.0736
+                       Goodness of Fit Index (GFI) = 0.919
+
+ MULTIGROUP CONSTRUCT INTERCORRELATIONS INVARIANT                               
+
+ Within Group Standardized Solution           
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+       x1      0.453       - -        - -        - -        - - 
+       x3      0.524       - -        - -        - -        - - 
+       x2       - -       0.724       - -        - -        - - 
+       x4       - -       0.748       - -        - -        - - 
+       x6       - -        - -       0.560       - -        - - 
+       x8       - -        - -       0.888       - -        - - 
+      x11       - -        - -       0.956       - -        - - 
+       x5       - -        - -        - -       0.447       - - 
+       x7       - -        - -        - -       0.475       - - 
+       x9       - -        - -        - -       0.461       - - 
+      x10       - -        - -        - -       0.548       - - 
+      x12       - -        - -        - -       0.448       - - 
+      x13       - -        - -        - -        - -       0.768
+      x14       - -        - -        - -        - -       0.706
+      x15       - -        - -        - -        - -       0.596
+
+         PHI                                     
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+ JOB CONT      1.000
+ JOB PRED      0.618      1.000
+ TESTING       0.284      0.139      1.000
+ USABILIT      0.462      0.170      0.545      1.000
+ PREVIOUS      0.198      0.081      0.212      0.428      1.000
+
+ MULTIGROUP CONSTRUCT INTERCORRELATIONS INVARIANT UNITED STATES                 
+
+ Common Metric Standardized Solution           
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+       x1      0.453       - -        - -        - -        - - 
+       x3      0.524       - -        - -        - -        - - 
+       x2       - -       0.724       - -        - -        - - 
+       x4       - -       0.748       - -        - -        - - 
+       x6       - -        - -       0.560       - -        - - 
+       x8       - -        - -       0.888       - -        - - 
+      x11       - -        - -       0.956       - -        - - 
+       x5       - -        - -        - -       0.447       - - 
+       x7       - -        - -        - -       0.475       - - 
+       x9       - -        - -        - -       0.461       - - 
+      x10       - -        - -        - -       0.548       - - 
+      x12       - -        - -        - -       0.448       - - 
+      x13       - -        - -        - -        - -       0.768
+      x14       - -        - -        - -        - -       0.706
+      x15       - -        - -        - -        - -       0.596
+
+         PHI                                     
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+ JOB CONT      1.000
+ JOB PRED      0.618      1.000
+ TESTING       0.284      0.139      1.000
+ USABILIT      0.462      0.170      0.545      1.000
+ PREVIOUS      0.198      0.081      0.212      0.428      1.000
+
+ MULTIGROUP CONSTRUCT INTERCORRELATIONS INVARIANT                               
+
+ Common Metric Standardized Solution           
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+       x1      0.453       - -        - -        - -        - - 
+       x3      0.524       - -        - -        - -        - - 
+       x2       - -       0.724       - -        - -        - - 
+       x4       - -       0.748       - -        - -        - - 
+       x6       - -        - -       0.560       - -        - - 
+       x8       - -        - -       0.888       - -        - - 
+      x11       - -        - -       0.956       - -        - - 
+       x5       - -        - -        - -       0.447       - - 
+       x7       - -        - -        - -       0.475       - - 
+       x9       - -        - -        - -       0.461       - - 
+      x10       - -        - -        - -       0.548       - - 
+      x12       - -        - -        - -       0.448       - - 
+      x13       - -        - -        - -        - -       0.768
+      x14       - -        - -        - -        - -       0.706
+      x15       - -        - -        - -        - -       0.596
+
+         PHI                                     
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+ JOB CONT      1.000
+ JOB PRED      0.618      1.000
+ TESTING       0.284      0.139      1.000
+ USABILIT      0.462      0.170      0.545      1.000
+ PREVIOUS      0.198      0.081      0.212      0.428      1.000
+
+                           Time used:    0.250 Seconds

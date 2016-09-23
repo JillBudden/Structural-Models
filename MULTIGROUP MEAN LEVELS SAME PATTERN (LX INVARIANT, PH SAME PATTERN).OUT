@@ -1,0 +1,797 @@
+
+                                DATE:  8/ 9/2007
+                                  TIME:  9:35
+
+
+                         LISREL 8.80 (STUDENT EDITION)
+
+                                       BY
+
+                         Karl G. J”reskog & Dag S”rbom
+
+
+
+                    This program is published exclusively by
+                    Scientific Software International, Inc.
+                       7383 N. Lincoln Avenue, Suite 100
+                        Lincolnwood, IL 60712, U.S.A. 
+            Phone: (800)247-6113, (847)675-0720, Fax: (847)675-2140
+        Copyright by Scientific Software International, Inc., 1981-2006 
+          Use of this program is subject to the terms specified in the
+                        Universal Copyright Convention.
+                          Website: www.ssicentral.com
+
+ The following lines were read from file C:\Documents and Settings\jbudden\Desktop\SIOP\ANALYSES\MULTIGROUP MEAN LEVELS.LS8:
+
+ MULTIGROUP MEAN LEVELS UNITED STATES
+ DA NI=15 NO=361 MA=CM NG=2
+ LA
+ x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15
+ KM FU FI=USLISRELDATA.txt
+ SD
+ .755 .914 .864 .933 .648 .784 .712 1.015 .577 .868 1.159 .550 .890 .781 1.075
+ ME
+ 4.22 3.39 3.84 3.43 4.51 4.27 4.53 4.13 4.63 4.38 3.99 4.64 4.37 4.46 3.95
+ SE
+ 1 3 2 4 6 8 11 5 7 9 10 12 13 14 15 /
+ MO NX=15 NK=5 LX=FU,FI TD=DI,FR PH=SY,FR TX=FI KA=FR
+ LK
+ 'JOB CONTENT' 'JOB PREDICTIVE' 'TESTING ENVIRONMENT' 'USABILITY' 'PREVIOUS JOB SEARCH'
+ PA LX
+ 0 0 0 0 0
+ 1 0 0 0 0
+ 0 0 0 0 0
+ 0 1 0 0 0
+ 0 0 0 0 0
+ 0 0 1 0 0
+ 0 0 1 0 0
+ 0 0 0 0 0
+ 0 0 0 1 0
+ 0 0 0 1 0
+ 0 0 0 1 0
+ 0 0 0 1 0
+ 0 0 0 0 0
+ 0 0 0 0 1
+ 0 0 0 0 1
+ VA 1.0 LX(1,1) LX(3,2) LX(5,3) LX(8,4) LX(13,5)
+ PATH DIAGRAM
+ PA TX
+ 0 1 0 1 0 1 1 0 1 1 1 1 0 1 1
+ OU ME=ML ND=3 SS
+
+ MULTIGROUP MEAN LEVELS UNITED STATES                                           
+
+                           Number of Input Variables 15
+                           Number of Y - Variables    0
+                           Number of X - Variables   15
+                           Number of ETA - Variables  0
+                           Number of KSI - Variables  5
+                           Number of Observations   361
+                           Number of Groups           2
+ MULTIGROUP MEAN LEVELS
+ DA NI=15 NO=335 MA=CM
+ LA
+ x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15
+ KM FU FI=ASIALISRELDATA.txt
+ SD
+ .673 .915 .777 .951 .762 .914 1.010 1.045 .657 1.097 1.167 .753 .805 .846 1.139
+ ME
+ 4.11 3.07 3.80 3.32 4.24 3.97 3.85 3.91 4.34 3.72 3.82 4.27 4.11 4.08 3.50
+ SE
+ 1 3 2 4 6 8 11 5 7 9 10 12 13 14 15 /
+ MO LX=IN TD=PS PH=PS TX=PS KA=PS
+ LK
+ 'JOB CONTENT' 'JOB PREDICTIVE' 'TESTING ENVIRONMENT' 'USABILITY' 'PREVIOUS JOB SEARCH'
+ OU
+
+ MULTIGROUP MEAN LEVELS                                                         
+
+                           Number of Input Variables 15
+                           Number of Y - Variables    0
+                           Number of X - Variables   15
+                           Number of ETA - Variables  0
+                           Number of KSI - Variables  5
+                           Number of Observations   335
+                           Number of Groups           2
+
+ MULTIGROUP MEAN LEVELS UNITED STATES                                           
+
+         Covariance Matrix       
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+       x1      0.570
+       x3      0.294      0.746
+       x2      0.213      0.221      0.835
+       x4      0.176      0.294      0.521      0.870
+       x6      0.103      0.047      0.061      0.039      0.615
+       x8      0.168      0.039      0.090      0.075      0.466      1.030
+      x11      0.179      0.105      0.139      0.138      0.436      0.856
+       x5      0.137      0.079      0.076      0.066      0.164      0.178
+       x7      0.162      0.098      0.032      0.041      0.188      0.267
+       x9      0.081      0.016      0.003      0.025      0.166      0.180
+      x10      0.160      0.100      0.131      0.104      0.281      0.254
+      x12      0.130      0.077      0.049      0.043      0.158      0.179
+      x13      0.066     -0.013     -0.015     -0.002      0.123      0.210
+      x14      0.094      0.003      0.006      0.022      0.127      0.182
+      x15      0.075      0.093      0.098      0.105      0.152      0.263
+
+         Covariance Matrix       
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+      x11      1.343
+       x5      0.131      0.420
+       x7      0.247      0.197      0.507
+       x9      0.137      0.196      0.182      0.333
+      x10      0.303      0.188      0.204      0.247      0.753
+      x12      0.160      0.177      0.169      0.204      0.207      0.303
+      x13      0.191      0.115      0.165      0.186      0.148      0.156
+      x14      0.150      0.123      0.156      0.156      0.119      0.158
+      x15      0.308      0.084      0.143      0.122      0.130      0.131
+
+         Covariance Matrix       
+
+                 x13        x14        x15   
+            --------   --------   --------
+      x13      0.792
+      x14      0.579      0.610
+      x15      0.521      0.444      1.156
+
+         Means   
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               4.220      3.840      3.390      3.430      4.270      4.130
+
+         Means   
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               3.990      4.510      4.530      4.630      4.380      4.640
+
+         Means   
+
+                 x13        x14        x15   
+            --------   --------   --------
+               4.370      4.460      3.950
+
+ MULTIGROUP MEAN LEVELS                                                         
+
+         Covariance Matrix       
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+       x1      0.453
+       x3      0.190      0.604
+       x2      0.179      0.260      0.837
+       x4      0.163      0.280      0.562      0.904
+       x6      0.043      0.154      0.024      0.048      0.835
+       x8      0.094      0.175      0.092      0.130      0.501      1.092
+      x11      0.038      0.204      0.053      0.099      0.623      0.845
+       x5      0.157      0.147      0.094      0.108      0.249      0.172
+       x7      0.091      0.122      0.120      0.121      0.245      0.292
+       x9      0.113      0.112      0.075      0.078      0.157      0.190
+      x10      0.127      0.089     -0.003      0.015      0.351      0.324
+      x12      0.100      0.095      0.072      0.034      0.268      0.275
+      x13      0.121      0.069      0.069      0.056      0.052      0.076
+      x14      0.104      0.080      0.114      0.096      0.073      0.086
+      x15      0.054      0.173      0.154      0.169      0.231      0.299
+
+         Covariance Matrix       
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+      x11      1.362
+       x5      0.192      0.581
+       x7      0.288      0.286      1.020
+       x9      0.213      0.228      0.290      0.432
+      x10      0.498      0.213      0.411      0.302      1.203
+      x12      0.373      0.243      0.230      0.197      0.316      0.567
+      x13      0.034      0.203      0.102      0.147      0.102      0.139
+      x14      0.079      0.148      0.079      0.131      0.087      0.146
+      x15      0.327      0.129      0.191      0.113      0.147      0.162
+
+         Covariance Matrix       
+
+                 x13        x14        x15   
+            --------   --------   --------
+      x13      0.648
+      x14      0.511      0.716
+      x15      0.390      0.407      1.297
+
+         Means   
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               4.110      3.800      3.070      3.320      3.970      3.910
+
+         Means   
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               3.820      4.240      3.850      4.340      3.720      4.270
+
+         Means   
+
+                 x13        x14        x15   
+            --------   --------   --------
+               4.110      4.080      3.500
+
+
+ MULTIGROUP MEAN LEVELS UNITED STATES                                           
+
+ Parameter Specifications
+
+ LAMBDA-X EQUALS LAMBDA-X IN THE FOLLOWING GROUP
+
+         PHI         
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS
+            --------   --------   --------   --------   --------
+ JOB CONT         11
+ JOB PRED         12         13
+ TESTING          14         15         16
+ USABILIT         17         18         19         20
+ PREVIOUS         21         22         23         24         25
+
+         THETA-DELTA 
+
+                  x1         x3         x2         x4         x6         x8
+            --------   --------   --------   --------   --------   --------
+                  26         27         28         29         30         31
+
+         THETA-DELTA 
+
+                 x11         x5         x7         x9        x10        x12
+            --------   --------   --------   --------   --------   --------
+                  32         33         34         35         36         37
+
+         THETA-DELTA 
+
+                 x13        x14        x15
+            --------   --------   --------
+                  38         39         40
+
+         TAU-X       
+
+                  x1         x3         x2         x4         x6         x8
+            --------   --------   --------   --------   --------   --------
+                   0         41          0         42          0         43
+
+         TAU-X       
+
+                 x11         x5         x7         x9        x10        x12
+            --------   --------   --------   --------   --------   --------
+                  44          0         45         46         47         48
+
+         TAU-X       
+
+                 x13        x14        x15
+            --------   --------   --------
+                   0         49         50
+
+         KAPPA       
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS
+            --------   --------   --------   --------   --------
+                  51         52         53         54         55
+
+
+ MULTIGROUP MEAN LEVELS                                                         
+
+ Parameter Specifications
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS
+            --------   --------   --------   --------   --------
+       x1          0          0          0          0          0
+       x3          1          0          0          0          0
+       x2          0          0          0          0          0
+       x4          0          2          0          0          0
+       x6          0          0          0          0          0
+       x8          0          0          3          0          0
+      x11          0          0          4          0          0
+       x5          0          0          0          0          0
+       x7          0          0          0          5          0
+       x9          0          0          0          6          0
+      x10          0          0          0          7          0
+      x12          0          0          0          8          0
+      x13          0          0          0          0          0
+      x14          0          0          0          0          9
+      x15          0          0          0          0         10
+
+         PHI         
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS
+            --------   --------   --------   --------   --------
+ JOB CONT         56
+ JOB PRED         57         58
+ TESTING          59         60         61
+ USABILIT         62         63         64         65
+ PREVIOUS         66         67         68         69         70
+
+         THETA-DELTA 
+
+                  x1         x3         x2         x4         x6         x8
+            --------   --------   --------   --------   --------   --------
+                  71         72         73         74         75         76
+
+         THETA-DELTA 
+
+                 x11         x5         x7         x9        x10        x12
+            --------   --------   --------   --------   --------   --------
+                  77         78         79         80         81         82
+
+         THETA-DELTA 
+
+                 x13        x14        x15
+            --------   --------   --------
+                  83         84         85
+
+         TAU-X       
+
+                  x1         x3         x2         x4         x6         x8
+            --------   --------   --------   --------   --------   --------
+                   0         86          0         87          0         88
+
+         TAU-X       
+
+                 x11         x5         x7         x9        x10        x12
+            --------   --------   --------   --------   --------   --------
+                  89          0         90         91         92         93
+
+         TAU-X       
+
+                 x13        x14        x15
+            --------   --------   --------
+                   0         94         95
+
+         KAPPA       
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS
+            --------   --------   --------   --------   --------
+                  96         97         98         99        100
+ 
+
+
+ MULTIGROUP MEAN LEVELS UNITED STATES                                           
+
+ Number of Iterations = 11
+
+ LISREL Estimates (Maximum Likelihood)                           
+
+ LAMBDA-X EQUALS LAMBDA-X IN THE FOLLOWING GROUP
+
+         PHI         
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+ JOB CONT      0.262
+             (0.042)
+               6.222
+ JOB PRED      0.209      0.512
+             (0.033)    (0.068)
+               6.336      7.491
+ TESTING       0.072      0.060      0.307
+             (0.021)    (0.026)    (0.038)
+               3.404      2.270      8.114
+ USABILIT      0.088      0.043      0.119      0.179
+             (0.018)    (0.020)    (0.018)    (0.024)
+               5.020      2.124      6.730      7.535
+ PREVIOUS      0.048      0.010      0.127      0.155      0.643
+             (0.029)    (0.036)    (0.028)    (0.024)    (0.060)
+               1.646      0.283      4.539      6.553     10.674
+
+         THETA-DELTA 
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               0.296      0.433      0.325      0.338      0.346      0.215
+             (0.037)    (0.049)    (0.054)    (0.056)    (0.030)    (0.037)
+               8.029      8.775      6.075      6.086     11.562      5.864
+
+         THETA-DELTA 
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               0.488      0.244      0.321      0.128      0.498      0.118
+             (0.054)    (0.021)    (0.027)    (0.013)    (0.041)    (0.012)
+               9.079     11.736     11.937      9.917     12.159      9.701
+
+         THETA-DELTA 
+
+                 x13        x14        x15   
+            --------   --------   --------
+               0.140      0.096      0.759
+             (0.026)    (0.021)    (0.059)
+               5.356      4.625     12.801
+
+         Squared Multiple Correlations for X - Variables         
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               0.470      0.434      0.611      0.611      0.470      0.782
+
+         Squared Multiple Correlations for X - Variables         
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               0.648      0.422      0.389      0.598      0.354      0.610
+
+         Squared Multiple Correlations for X - Variables         
+
+                 x13        x14        x15   
+            --------   --------   --------
+               0.821      0.845      0.333
+
+         TAU-X       
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+                - -      -0.911       - -      -0.021       - -      -2.637
+                        (0.476)               (0.304)               (0.388)
+                         -1.915                -0.070                -6.802
+
+         TAU-X       
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+              -3.319       - -      -0.298     -0.030     -1.189      0.056
+             (0.423)               (0.386)    (0.308)    (0.451)    (0.309)
+              -7.838                -0.771     -0.096     -2.638      0.181
+
+         TAU-X       
+
+                 x13        x14        x15   
+            --------   --------   --------
+                - -       0.518      0.596
+                        (0.172)    (0.234)
+                          3.002      2.552
+
+         KAPPA       
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+               4.220      3.390      4.270      4.510      4.370
+             (0.039)    (0.048)    (0.043)    (0.034)    (0.047)
+             107.260     70.297    100.271    131.533     93.730
+
+
+                         Group Goodness of Fit Statistics
+
+                       Contribution to Chi-Square = 193.821
+                  Percentage Contribution to Chi-Square = 49.553
+ 
+                     Root Mean Square Residual (RMR) = 0.0415
+                            Standardized RMR = 0.0570
+                       Goodness of Fit Index (GFI) = 0.934
+
+ MULTIGROUP MEAN LEVELS UNITED STATES                                           
+
+ Within Group Standardized Solution           
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+       x1      0.512       - -        - -        - -        - - 
+       x3      0.576       - -        - -        - -        - - 
+       x2       - -       0.715       - -        - -        - - 
+       x4       - -       0.728       - -        - -        - - 
+       x6       - -        - -       0.554       - -        - - 
+       x8       - -        - -       0.878       - -        - - 
+      x11       - -        - -       0.949       - -        - - 
+       x5       - -        - -        - -       0.423       - - 
+       x7       - -        - -        - -       0.453       - - 
+       x9       - -        - -        - -       0.437       - - 
+      x10       - -        - -        - -       0.522       - - 
+      x12       - -        - -        - -       0.430       - - 
+      x13       - -        - -        - -        - -       0.802
+      x14       - -        - -        - -        - -       0.723
+      x15       - -        - -        - -        - -       0.615
+
+         PHI                                     
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+ JOB CONT      1.000
+ JOB PRED      0.570      1.000
+ TESTING       0.255      0.150      1.000
+ USABILIT      0.407      0.143      0.510      1.000
+ PREVIOUS      0.116      0.018      0.286      0.456      1.000
+
+
+ MULTIGROUP MEAN LEVELS                                                         
+
+ Number of Iterations = 11
+
+ LISREL Estimates (Maximum Likelihood)                           
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+       x1      1.000       - -        - -        - -        - - 
+       x3      1.126       - -        - -        - -        - - 
+             (0.112)
+              10.037
+       x2       - -       1.000       - -        - -        - - 
+       x4       - -       1.018       - -        - -        - - 
+                        (0.089)
+                         11.467
+       x6       - -        - -       1.000       - -        - - 
+       x8       - -        - -       1.585       - -        - - 
+                                   (0.090)
+                                    17.634
+      x11       - -        - -       1.712       - -        - - 
+                                   (0.098)
+                                    17.465
+       x5       - -        - -        - -       1.000       - - 
+       x7       - -        - -        - -       1.070       - - 
+                                              (0.085)
+                                               12.573
+       x9       - -        - -        - -       1.033       - - 
+                                              (0.068)
+                                               15.237
+      x10       - -        - -        - -       1.235       - - 
+                                              (0.099)
+                                               12.428
+      x12       - -        - -        - -       1.016       - - 
+                                              (0.068)
+                                               14.910
+      x13       - -        - -        - -        - -       1.000
+      x14       - -        - -        - -        - -       0.902
+                                                         (0.039)
+                                                          23.087
+      x15       - -        - -        - -        - -       0.767
+                                                         (0.052)
+                                                          14.666
+
+         PHI         
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+ JOB CONT      0.169
+             (0.032)
+               5.301
+ JOB PRED      0.204      0.552
+             (0.031)    (0.073)
+               6.566      7.552
+ TESTING       0.074      0.052      0.320
+             (0.020)    (0.029)    (0.041)
+               3.670      1.835      7.790
+ USABILIT      0.105      0.070      0.159      0.225
+             (0.019)    (0.026)    (0.023)    (0.031)
+               5.502      2.726      6.986      7.274
+ PREVIOUS      0.095      0.082      0.051      0.140      0.554
+             (0.025)    (0.037)    (0.027)    (0.026)    (0.054)
+               3.723      2.226      1.875      5.475     10.299
+
+         THETA-DELTA 
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               0.298      0.372      0.283      0.334      0.461      0.369
+             (0.032)    (0.040)    (0.053)    (0.057)    (0.040)    (0.048)
+               9.387      9.324      5.300      5.884     11.424      7.672
+
+         THETA-DELTA 
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               0.386      0.351      0.717      0.217      0.831      0.335
+             (0.054)    (0.032)    (0.060)    (0.022)    (0.071)    (0.031)
+               7.155     11.055     11.906      9.673     11.738     10.938
+
+         THETA-DELTA 
+
+                 x13        x14        x15   
+            --------   --------   --------
+               0.101      0.241      0.997
+             (0.029)    (0.029)    (0.081)
+               3.531      8.175     12.369
+
+         Squared Multiple Correlations for X - Variables         
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               0.362      0.366      0.661      0.632      0.410      0.685
+
+         Squared Multiple Correlations for X - Variables         
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               0.708      0.390      0.264      0.525      0.292      0.409
+
+         Squared Multiple Correlations for X - Variables         
+
+                 x13        x14        x15   
+            --------   --------   --------
+               0.845      0.652      0.247
+
+         TAU-X       
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+                - -      -0.827       - -       0.194       - -      -2.381
+                        (0.463)               (0.276)               (0.363)
+                         -1.785                 0.704                -6.558
+
+         TAU-X       
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+              -2.976       - -      -0.689     -0.041     -1.516     -0.040
+             (0.396)               (0.366)    (0.291)    (0.426)    (0.293)
+              -7.519                -1.884     -0.140     -3.558     -0.135
+
+         TAU-X       
+
+                 x13        x14        x15   
+            --------   --------   --------
+                - -       0.372      0.346
+                        (0.164)    (0.222)
+                          2.276      1.556
+
+         KAPPA       
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+               4.110      3.070      3.970      4.240      4.110
+             (0.037)    (0.050)    (0.048)    (0.042)    (0.044)
+             109.939     61.381     82.122    102.146     92.774
+
+
+                        Global Goodness of Fit Statistics
+
+                             Degrees of Freedom = 170
+               Minimum Fit Function Chi-Square = 391.142 (P = 0.0)
+       Normal Theory Weighted Least Squares Chi-Square = 393.755 (P = 0.0)
+                Estimated Non-centrality Parameter (NCP) = 223.755
+           90 Percent Confidence Interval for NCP = (169.767 ; 285.460)
+ 
+                        Minimum Fit Function Value = 0.564
+                Population Discrepancy Function Value (F0) = 0.322
+             90 Percent Confidence Interval for F0 = (0.245 ; 0.411)
+             Root Mean Square Error of Approximation (RMSEA) = 0.0616
+           90 Percent Confidence Interval for RMSEA = (0.0536 ; 0.0696)
+              P-Value for Test of Close Fit (RMSEA < 0.05) = 0.00890
+ 
+                  Expected Cross-Validation Index (ECVI) = 0.856
+            90 Percent Confidence Interval for ECVI = (0.735 ; 0.901)
+                         ECVI for Saturated Model = 0.346
+                       ECVI for Independence Model = 8.483
+ 
+     Chi-Square for Independence Model with 210 Degrees of Freedom = 5857.408
+                           Independence AIC = 5917.408
+                               Model AIC = 593.755
+                             Saturated AIC = 480.000
+                           Independence CAIC = 6083.769
+                              Model CAIC = 1148.290
+                            Saturated CAIC = 1810.884
+ 
+                          Normed Fit Index (NFI) = 0.933
+                       Non-Normed Fit Index (NNFI) = 0.952
+                    Parsimony Normed Fit Index (PNFI) = 0.755
+                       Comparative Fit Index (CFI) = 0.961
+                       Incremental Fit Index (IFI) = 0.961
+                         Relative Fit Index (RFI) = 0.918
+ 
+                            Critical N (CN) = 383.914
+ 
+
+
+                         Group Goodness of Fit Statistics
+
+                       Contribution to Chi-Square = 197.320
+                  Percentage Contribution to Chi-Square = 50.447
+ 
+                     Root Mean Square Residual (RMR) = 0.0608
+                            Standardized RMR = 0.0646
+                       Goodness of Fit Index (GFI) = 0.925
+
+ MULTIGROUP MEAN LEVELS                                                         
+
+ Within Group Standardized Solution           
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+       x1      0.411       - -        - -        - -        - - 
+       x3      0.463       - -        - -        - -        - - 
+       x2       - -       0.743       - -        - -        - - 
+       x4       - -       0.757       - -        - -        - - 
+       x6       - -        - -       0.566       - -        - - 
+       x8       - -        - -       0.896       - -        - - 
+      x11       - -        - -       0.968       - -        - - 
+       x5       - -        - -        - -       0.474       - - 
+       x7       - -        - -        - -       0.507       - - 
+       x9       - -        - -        - -       0.490       - - 
+      x10       - -        - -        - -       0.585       - - 
+      x12       - -        - -        - -       0.482       - - 
+      x13       - -        - -        - -        - -       0.744
+      x14       - -        - -        - -        - -       0.671
+      x15       - -        - -        - -        - -       0.571
+
+         PHI                                     
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+ JOB CONT      1.000
+ JOB PRED      0.668      1.000
+ TESTING       0.316      0.125      1.000
+ USABILIT      0.538      0.198      0.591      1.000
+ PREVIOUS      0.309      0.148      0.120      0.397      1.000
+
+ MULTIGROUP MEAN LEVELS UNITED STATES                                           
+
+ Common Metric Standardized Solution           
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+       x1      0.466       - -        - -        - -        - - 
+       x3      0.525       - -        - -        - -        - - 
+       x2       - -       0.729       - -        - -        - - 
+       x4       - -       0.742       - -        - -        - - 
+       x6       - -        - -       0.560       - -        - - 
+       x8       - -        - -       0.887       - -        - - 
+      x11       - -        - -       0.958       - -        - - 
+       x5       - -        - -        - -       0.448       - - 
+       x7       - -        - -        - -       0.480       - - 
+       x9       - -        - -        - -       0.463       - - 
+      x10       - -        - -        - -       0.553       - - 
+      x12       - -        - -        - -       0.455       - - 
+      x13       - -        - -        - -        - -       0.775
+      x14       - -        - -        - -        - -       0.699
+      x15       - -        - -        - -        - -       0.594
+
+         PHI                                     
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+ JOB CONT      1.205
+ JOB PRED      0.614      0.963
+ TESTING       0.277      0.146      0.980
+ USABILIT      0.421      0.133      0.476      0.890
+ PREVIOUS      0.132      0.018      0.293      0.446      1.071
+
+ MULTIGROUP MEAN LEVELS                                                         
+
+ Common Metric Standardized Solution           
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+       x1      0.466       - -        - -        - -        - - 
+       x3      0.525       - -        - -        - -        - - 
+       x2       - -       0.729       - -        - -        - - 
+       x4       - -       0.742       - -        - -        - - 
+       x6       - -        - -       0.560       - -        - - 
+       x8       - -        - -       0.887       - -        - - 
+      x11       - -        - -       0.958       - -        - - 
+       x5       - -        - -        - -       0.448       - - 
+       x7       - -        - -        - -       0.480       - - 
+       x9       - -        - -        - -       0.463       - - 
+      x10       - -        - -        - -       0.553       - - 
+      x12       - -        - -        - -       0.455       - - 
+      x13       - -        - -        - -        - -       0.775
+      x14       - -        - -        - -        - -       0.699
+      x15       - -        - -        - -        - -       0.594
+
+         PHI                                     
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+ JOB CONT      0.779
+ JOB PRED      0.601      1.040
+ TESTING       0.282      0.129      1.021
+ USABILIT      0.502      0.213      0.632      1.118
+ PREVIOUS      0.262      0.145      0.117      0.404      0.923
+
+                           Time used:    0.270 Seconds

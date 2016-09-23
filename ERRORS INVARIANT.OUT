@@ -1,0 +1,561 @@
+
+                                DATE:  8/25/2007
+                                  TIME: 11:08
+
+
+                         LISREL 8.80 (STUDENT EDITION)
+
+                                       BY
+
+                         Karl G. J”reskog & Dag S”rbom
+
+
+
+                    This program is published exclusively by
+                    Scientific Software International, Inc.
+                       7383 N. Lincoln Avenue, Suite 100
+                        Lincolnwood, IL 60712, U.S.A. 
+            Phone: (800)247-6113, (847)675-0720, Fax: (847)675-2140
+        Copyright by Scientific Software International, Inc., 1981-2006 
+          Use of this program is subject to the terms specified in the
+                        Universal Copyright Convention.
+                          Website: www.ssicentral.com
+
+ The following lines were read from file C:\Documents and Settings\jbudden\Desktop\SIOP\ANALYSES\ERRORS INVARIANT.LS8:
+
+ MULTIGROUP ERROR VARIANCE INVARIANT UNITED STATES
+ DA NI=15 NO=361 MA=CM NG=2
+ LA
+ x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15
+ KM FU FI=USLISRELDATA.txt
+ SD
+ .755 .914 .864 .933 .648 .784 .712 1.015 .577 .868 1.159 .550 .890 .781 1.075
+ SE
+ 1 3 2 4 6 8 11 5 7 9 10 12 13 14 15 /
+ MO NX=15 NK=5 LX=FU,FI TD=DI,FR PH=SY,FR
+ LK
+ 'JOB CONTENT' 'JOB PREDICTIVE' 'TESTING ENVIRONMENT' 'USABILITY' 'PREVIOUS JOB SEARCH'
+ PA LX
+ 0 0 0 0 0
+ 1 0 0 0 0
+ 0 0 0 0 0
+ 0 1 0 0 0
+ 0 0 0 0 0
+ 0 0 1 0 0
+ 0 0 1 0 0
+ 0 0 0 0 0
+ 0 0 0 1 0
+ 0 0 0 1 0
+ 0 0 0 1 0
+ 0 0 0 1 0
+ 0 0 0 0 0
+ 0 0 0 0 1
+ 0 0 0 0 1
+ VA 1.0 LX(1,1) LX(3,2) LX(5,3) LX(8,4) LX(13,5)
+ PATH DIAGRAM
+ OU ME=ML ND=3 SS
+
+ MULTIGROUP ERROR VARIANCE INVARIANT UNITED STATES                              
+
+                           Number of Input Variables 15
+                           Number of Y - Variables    0
+                           Number of X - Variables   15
+                           Number of ETA - Variables  0
+                           Number of KSI - Variables  5
+                           Number of Observations   361
+                           Number of Groups           2
+ MULTIGROUP ERROR VARIANCES INVARIANT -- ASIA
+ DA NI=15 NO=335 MA=CM
+ LA
+ x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15
+ KM FU FI=ASIALISRELDATA.txt
+ SD
+ .673 .915 .777 .951 .762 .914 1.010 1.045 .657 1.097 1.167 .753 .805 .846 1.139
+ SE
+ 1 3 2 4 6 8 11 5 7 9 10 12 13 14 15 /
+ MO LX=IN TD=IN PH=IN
+ LK
+ 'JOB CONTENT' 'JOB PREDICTIVE' 'TESTING ENVIRONMENT' 'USABILITY' 'PREVIOUS JOB SEARCH'
+ OU
+
+ MULTIGROUP ERROR VARIANCES INVARIANT -- ASIA                                   
+
+                           Number of Input Variables 15
+                           Number of Y - Variables    0
+                           Number of X - Variables   15
+                           Number of ETA - Variables  0
+                           Number of KSI - Variables  5
+                           Number of Observations   335
+                           Number of Groups           2
+
+ MULTIGROUP ERROR VARIANCE INVARIANT UNITED STATES                              
+
+         Covariance Matrix       
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+       x1      0.570
+       x3      0.294      0.746
+       x2      0.213      0.221      0.835
+       x4      0.176      0.294      0.521      0.870
+       x6      0.103      0.047      0.061      0.039      0.615
+       x8      0.168      0.039      0.090      0.075      0.466      1.030
+      x11      0.179      0.105      0.139      0.138      0.436      0.856
+       x5      0.137      0.079      0.076      0.066      0.164      0.178
+       x7      0.162      0.098      0.032      0.041      0.188      0.267
+       x9      0.081      0.016      0.003      0.025      0.166      0.180
+      x10      0.160      0.100      0.131      0.104      0.281      0.254
+      x12      0.130      0.077      0.049      0.043      0.158      0.179
+      x13      0.066     -0.013     -0.015     -0.002      0.123      0.210
+      x14      0.094      0.003      0.006      0.022      0.127      0.182
+      x15      0.075      0.093      0.098      0.105      0.152      0.263
+
+         Covariance Matrix       
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+      x11      1.343
+       x5      0.131      0.420
+       x7      0.247      0.197      0.507
+       x9      0.137      0.196      0.182      0.333
+      x10      0.303      0.188      0.204      0.247      0.753
+      x12      0.160      0.177      0.169      0.204      0.207      0.303
+      x13      0.191      0.115      0.165      0.186      0.148      0.156
+      x14      0.150      0.123      0.156      0.156      0.119      0.158
+      x15      0.308      0.084      0.143      0.122      0.130      0.131
+
+         Covariance Matrix       
+
+                 x13        x14        x15   
+            --------   --------   --------
+      x13      0.792
+      x14      0.579      0.610
+      x15      0.521      0.444      1.156
+
+ MULTIGROUP ERROR VARIANCES INVARIANT -- ASIA                                   
+
+         Covariance Matrix       
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+       x1      0.453
+       x3      0.190      0.604
+       x2      0.179      0.260      0.837
+       x4      0.163      0.280      0.562      0.904
+       x6      0.043      0.154      0.024      0.048      0.835
+       x8      0.094      0.175      0.092      0.130      0.501      1.092
+      x11      0.038      0.204      0.053      0.099      0.623      0.845
+       x5      0.157      0.147      0.094      0.108      0.249      0.172
+       x7      0.091      0.122      0.120      0.121      0.245      0.292
+       x9      0.113      0.112      0.075      0.078      0.157      0.190
+      x10      0.127      0.089     -0.003      0.015      0.351      0.324
+      x12      0.100      0.095      0.072      0.034      0.268      0.275
+      x13      0.121      0.069      0.069      0.056      0.052      0.076
+      x14      0.104      0.080      0.114      0.096      0.073      0.086
+      x15      0.054      0.173      0.154      0.169      0.231      0.299
+
+         Covariance Matrix       
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+      x11      1.362
+       x5      0.192      0.581
+       x7      0.288      0.286      1.020
+       x9      0.213      0.228      0.290      0.432
+      x10      0.498      0.213      0.411      0.302      1.203
+      x12      0.373      0.243      0.230      0.197      0.316      0.567
+      x13      0.034      0.203      0.102      0.147      0.102      0.139
+      x14      0.079      0.148      0.079      0.131      0.087      0.146
+      x15      0.327      0.129      0.191      0.113      0.147      0.162
+
+         Covariance Matrix       
+
+                 x13        x14        x15   
+            --------   --------   --------
+      x13      0.648
+      x14      0.511      0.716
+      x15      0.390      0.407      1.297
+
+
+ MULTIGROUP ERROR VARIANCE INVARIANT UNITED STATES                              
+
+ Parameter Specifications
+
+ LAMBDA-X EQUALS LAMBDA-X IN THE FOLLOWING GROUP
+
+ PHI EQUALS PHI IN THE FOLLOWING GROUP
+
+ THETA-DELTA EQUALS THETA-DELTA IN THE FOLLOWING GROUP
+
+
+ MULTIGROUP ERROR VARIANCES INVARIANT -- ASIA                                   
+
+ Parameter Specifications
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS
+            --------   --------   --------   --------   --------
+       x1          0          0          0          0          0
+       x3          1          0          0          0          0
+       x2          0          0          0          0          0
+       x4          0          2          0          0          0
+       x6          0          0          0          0          0
+       x8          0          0          3          0          0
+      x11          0          0          4          0          0
+       x5          0          0          0          0          0
+       x7          0          0          0          5          0
+       x9          0          0          0          6          0
+      x10          0          0          0          7          0
+      x12          0          0          0          8          0
+      x13          0          0          0          0          0
+      x14          0          0          0          0          9
+      x15          0          0          0          0         10
+
+         PHI         
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS
+            --------   --------   --------   --------   --------
+ JOB CONT         11
+ JOB PRED         12         13
+ TESTING          14         15         16
+ USABILIT         17         18         19         20
+ PREVIOUS         21         22         23         24         25
+
+         THETA-DELTA 
+
+                  x1         x3         x2         x4         x6         x8
+            --------   --------   --------   --------   --------   --------
+                  26         27         28         29         30         31
+
+         THETA-DELTA 
+
+                 x11         x5         x7         x9        x10        x12
+            --------   --------   --------   --------   --------   --------
+                  32         33         34         35         36         37
+
+         THETA-DELTA 
+
+                 x13        x14        x15
+            --------   --------   --------
+                  38         39         40
+ 
+
+
+ MULTIGROUP ERROR VARIANCE INVARIANT UNITED STATES                              
+
+ Number of Iterations =  9
+
+ LISREL Estimates (Maximum Likelihood)                           
+
+ LAMBDA-X EQUALS LAMBDA-X IN THE FOLLOWING GROUP
+
+ PHI EQUALS PHI IN THE FOLLOWING GROUP
+
+ THETA-DELTA EQUALS THETA-DELTA IN THE FOLLOWING GROUP
+
+
+                         Group Goodness of Fit Statistics
+
+                       Contribution to Chi-Square = 338.273
+                  Percentage Contribution to Chi-Square = 53.291
+ 
+                     Root Mean Square Residual (RMR) = 0.0594
+                            Standardized RMR = 0.0799
+                       Goodness of Fit Index (GFI) = 0.887
+
+ MULTIGROUP ERROR VARIANCE INVARIANT UNITED STATES                              
+
+ Within Group Standardized Solution           
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+       x1      0.462       - -        - -        - -        - - 
+       x3      0.528       - -        - -        - -        - - 
+       x2       - -       0.722       - -        - -        - - 
+       x4       - -       0.749       - -        - -        - - 
+       x6       - -        - -       0.566       - -        - - 
+       x8       - -        - -       0.876       - -        - - 
+      x11       - -        - -       0.955       - -        - - 
+       x5       - -        - -        - -       0.448       - - 
+       x7       - -        - -        - -       0.505       - - 
+       x9       - -        - -        - -       0.452       - - 
+      x10       - -        - -        - -       0.567       - - 
+      x12       - -        - -        - -       0.452       - - 
+      x13       - -        - -        - -        - -       0.767
+      x14       - -        - -        - -        - -       0.712
+      x15       - -        - -        - -        - -       0.601
+
+         PHI                                     
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+ JOB CONT      1.000
+ JOB PRED      0.609      1.000
+ TESTING       0.281      0.145      1.000
+ USABILIT      0.452      0.172      0.556      1.000
+ PREVIOUS      0.189      0.085      0.216      0.418      1.000
+
+
+ MULTIGROUP ERROR VARIANCES INVARIANT -- ASIA                                   
+
+ Number of Iterations =  9
+
+ LISREL Estimates (Maximum Likelihood)                           
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+       x1      1.000       - -        - -        - -        - - 
+       x3      1.144       - -        - -        - -        - - 
+             (0.116)
+               9.894
+       x2       - -       1.000       - -        - -        - - 
+       x4       - -       1.038       - -        - -        - - 
+                        (0.092)
+                         11.320
+       x6       - -        - -       1.000       - -        - - 
+       x8       - -        - -       1.549       - -        - - 
+                                   (0.089)
+                                    17.477
+      x11       - -        - -       1.688       - -        - - 
+                                   (0.097)
+                                    17.365
+       x5       - -        - -        - -       1.000       - - 
+       x7       - -        - -        - -       1.126       - - 
+                                              (0.091)
+                                               12.435
+       x9       - -        - -        - -       1.008       - - 
+                                              (0.069)
+                                               14.688
+      x10       - -        - -        - -       1.265       - - 
+                                              (0.102)
+                                               12.340
+      x12       - -        - -        - -       1.008       - - 
+                                              (0.071)
+                                               14.118
+      x13       - -        - -        - -        - -       1.000
+      x14       - -        - -        - -        - -       0.928
+                                                         (0.042)
+                                                          21.850
+      x15       - -        - -        - -        - -       0.783
+                                                         (0.054)
+                                                          14.521
+
+         PHI         
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+ JOB CONT      0.213
+             (0.030)
+               7.066
+ JOB PRED      0.203      0.521
+             (0.025)    (0.059)
+               8.275      8.781
+ TESTING       0.073      0.059      0.320
+             (0.015)    (0.020)    (0.035)
+               4.835      3.002      9.219
+ USABILIT      0.094      0.056      0.141      0.201
+             (0.014)    (0.016)    (0.016)    (0.024)
+               6.812      3.421      8.863      8.479
+ PREVIOUS      0.067      0.047      0.093      0.144      0.588
+             (0.019)    (0.026)    (0.020)    (0.018)    (0.044)
+               3.492      1.837      4.712      7.925     13.330
+
+         THETA-DELTA 
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               0.300      0.399      0.315      0.326      0.401      0.292
+             (0.026)    (0.034)    (0.046)    (0.049)    (0.025)    (0.032)
+              11.600     11.708      6.912      6.665     15.930      9.074
+
+         THETA-DELTA 
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               0.441      0.296      0.499      0.176      0.648      0.226
+             (0.041)    (0.019)    (0.030)    (0.013)    (0.039)    (0.015)
+              10.721     15.712     16.445     13.610     16.508     14.722
+
+         THETA-DELTA 
+
+                 x13        x14        x15   
+            --------   --------   --------
+               0.135      0.154      0.863
+             (0.023)    (0.021)    (0.049)
+               5.782      7.408     17.646
+
+         Squared Multiple Correlations for X - Variables         
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               0.415      0.411      0.623      0.633      0.444      0.724
+
+         Squared Multiple Correlations for X - Variables         
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               0.674      0.404      0.338      0.537      0.332      0.475
+
+         Squared Multiple Correlations for X - Variables         
+
+                 x13        x14        x15   
+            --------   --------   --------
+               0.813      0.766      0.295
+
+
+                        Global Goodness of Fit Statistics
+
+                             Degrees of Freedom = 200
+               Minimum Fit Function Chi-Square = 634.759 (P = 0.0)
+       Normal Theory Weighted Least Squares Chi-Square = 642.827 (P = 0.0)
+                Estimated Non-centrality Parameter (NCP) = 442.827
+           90 Percent Confidence Interval for NCP = (369.947 ; 523.313)
+ 
+                        Minimum Fit Function Value = 0.915
+                Population Discrepancy Function Value (F0) = 0.638
+             90 Percent Confidence Interval for F0 = (0.533 ; 0.754)
+             Root Mean Square Error of Approximation (RMSEA) = 0.0799
+           90 Percent Confidence Interval for RMSEA = (0.0730 ; 0.0868)
+               P-Value for Test of Close Fit (RMSEA < 0.05) = 0.000
+ 
+                  Expected Cross-Validation Index (ECVI) = 1.042
+            90 Percent Confidence Interval for ECVI = (0.937 ; 1.158)
+                         ECVI for Saturated Model = 0.346
+                       ECVI for Independence Model = 8.483
+ 
+     Chi-Square for Independence Model with 210 Degrees of Freedom = 5857.408
+                           Independence AIC = 5917.408
+                               Model AIC = 722.827
+                             Saturated AIC = 480.000
+                           Independence CAIC = 6083.769
+                               Model CAIC = 944.641
+                            Saturated CAIC = 1810.884
+ 
+                          Normed Fit Index (NFI) = 0.892
+                       Non-Normed Fit Index (NNFI) = 0.919
+                    Parsimony Normed Fit Index (PNFI) = 0.849
+                       Comparative Fit Index (CFI) = 0.923
+                       Incremental Fit Index (IFI) = 0.923
+                         Relative Fit Index (RFI) = 0.886
+ 
+                            Critical N (CN) = 273.726
+ 
+
+
+                         Group Goodness of Fit Statistics
+
+                       Contribution to Chi-Square = 296.486
+                  Percentage Contribution to Chi-Square = 46.709
+ 
+                     Root Mean Square Residual (RMR) = 0.0738
+                            Standardized RMR = 0.0947
+                       Goodness of Fit Index (GFI) = 0.892
+
+ MULTIGROUP ERROR VARIANCES INVARIANT -- ASIA                                   
+
+ Within Group Standardized Solution           
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+       x1      0.462       - -        - -        - -        - - 
+       x3      0.528       - -        - -        - -        - - 
+       x2       - -       0.722       - -        - -        - - 
+       x4       - -       0.749       - -        - -        - - 
+       x6       - -        - -       0.566       - -        - - 
+       x8       - -        - -       0.876       - -        - - 
+      x11       - -        - -       0.955       - -        - - 
+       x5       - -        - -        - -       0.448       - - 
+       x7       - -        - -        - -       0.505       - - 
+       x9       - -        - -        - -       0.452       - - 
+      x10       - -        - -        - -       0.567       - - 
+      x12       - -        - -        - -       0.452       - - 
+      x13       - -        - -        - -        - -       0.767
+      x14       - -        - -        - -        - -       0.712
+      x15       - -        - -        - -        - -       0.601
+
+         PHI                                     
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+ JOB CONT      1.000
+ JOB PRED      0.609      1.000
+ TESTING       0.281      0.145      1.000
+ USABILIT      0.452      0.172      0.556      1.000
+ PREVIOUS      0.189      0.085      0.216      0.418      1.000
+
+ MULTIGROUP ERROR VARIANCE INVARIANT UNITED STATES                              
+
+ Common Metric Standardized Solution           
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+       x1      0.462       - -        - -        - -        - - 
+       x3      0.528       - -        - -        - -        - - 
+       x2       - -       0.722       - -        - -        - - 
+       x4       - -       0.749       - -        - -        - - 
+       x6       - -        - -       0.566       - -        - - 
+       x8       - -        - -       0.876       - -        - - 
+      x11       - -        - -       0.955       - -        - - 
+       x5       - -        - -        - -       0.448       - - 
+       x7       - -        - -        - -       0.505       - - 
+       x9       - -        - -        - -       0.452       - - 
+      x10       - -        - -        - -       0.567       - - 
+      x12       - -        - -        - -       0.452       - - 
+      x13       - -        - -        - -        - -       0.767
+      x14       - -        - -        - -        - -       0.712
+      x15       - -        - -        - -        - -       0.601
+
+         PHI                                     
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+ JOB CONT      1.000
+ JOB PRED      0.609      1.000
+ TESTING       0.281      0.145      1.000
+ USABILIT      0.452      0.172      0.556      1.000
+ PREVIOUS      0.189      0.085      0.216      0.418      1.000
+
+ MULTIGROUP ERROR VARIANCES INVARIANT -- ASIA                                   
+
+ Common Metric Standardized Solution           
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+       x1      0.462       - -        - -        - -        - - 
+       x3      0.528       - -        - -        - -        - - 
+       x2       - -       0.722       - -        - -        - - 
+       x4       - -       0.749       - -        - -        - - 
+       x6       - -        - -       0.566       - -        - - 
+       x8       - -        - -       0.876       - -        - - 
+      x11       - -        - -       0.955       - -        - - 
+       x5       - -        - -        - -       0.448       - - 
+       x7       - -        - -        - -       0.505       - - 
+       x9       - -        - -        - -       0.452       - - 
+      x10       - -        - -        - -       0.567       - - 
+      x12       - -        - -        - -       0.452       - - 
+      x13       - -        - -        - -        - -       0.767
+      x14       - -        - -        - -        - -       0.712
+      x15       - -        - -        - -        - -       0.601
+
+         PHI                                     
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+ JOB CONT      1.000
+ JOB PRED      0.609      1.000
+ TESTING       0.281      0.145      1.000
+ USABILIT      0.452      0.172      0.556      1.000
+ PREVIOUS      0.189      0.085      0.216      0.418      1.000
+
+                           Time used:    0.170 Seconds

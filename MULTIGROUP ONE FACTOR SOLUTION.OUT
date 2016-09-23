@@ -1,0 +1,667 @@
+
+                                DATE:  8/ 9/2007
+                                  TIME:  9:37
+
+
+                         LISREL 8.80 (STUDENT EDITION)
+
+                                       BY
+
+                         Karl G. J”reskog & Dag S”rbom
+
+
+
+                    This program is published exclusively by
+                    Scientific Software International, Inc.
+                       7383 N. Lincoln Avenue, Suite 100
+                        Lincolnwood, IL 60712, U.S.A. 
+            Phone: (800)247-6113, (847)675-0720, Fax: (847)675-2140
+        Copyright by Scientific Software International, Inc., 1981-2006 
+          Use of this program is subject to the terms specified in the
+                        Universal Copyright Convention.
+                          Website: www.ssicentral.com
+
+ The following lines were read from file C:\Documents and Settings\jbudden\Desktop\SIOP\ANALYSES\MULTIGROUP ONE FACTOR SOLUTION.LS8:
+
+ MULTIGROUP ONE FACTOR SAME PATTERN UNITED STATES
+ DA NI=15 NO=361 MA=CM NG=2
+ LA
+ x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15
+ KM FU FI=USLISRELDATA.txt
+ SD
+ .755 .914 .864 .933 .648 .784 .712 1.015 .577 .868 1.159 .550 .890 .781 1.075
+ SE
+ 1 2 3 4 6 8 11 5 7 9 10 12 13 14 15 /
+ MO NX=15 NK=1 LX=FU,FR TD=DI,FR PH=SY,FR
+ LK
+ 'ONE FACTOR'
+ PA LX
+ 0
+ 1
+ 1
+ 1
+ 1
+ 1
+ 1
+ 1
+ 1
+ 1
+ 1
+ 1
+ 1
+ 1
+ 1
+ VA 1.0 LX(1,1)
+ PATH DIAGRAM
+ OU ME=ML ND=3 SS
+
+ MULTIGROUP ONE FACTOR SAME PATTERN UNITED STATES                               
+
+                           Number of Input Variables 15
+                           Number of Y - Variables    0
+                           Number of X - Variables   15
+                           Number of ETA - Variables  0
+                           Number of KSI - Variables  1
+                           Number of Observations   361
+                           Number of Groups           2
+ MULTIGROUP ONE FACTOR SAME PATTERN
+ DA NI=15 NO=335 MA=CM
+ LA
+ x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15
+ KM FU FI=ASIALISRELDATA.txt
+ SD
+ .673 .915 .777 .951 .762 .914 1.010 1.045 .657 1.097 1.167 .753 .805 .846 1.139
+ SE
+ 1 2 3 4 6 8 11 5 7 9 10 12 13 14 15 /
+ MO LX=PS TD=PS PH=PS
+ LK
+ 'ONE FACTOR'
+ OU
+
+ MULTIGROUP ONE FACTOR SAME PATTERN                                             
+
+                           Number of Input Variables 15
+                           Number of Y - Variables    0
+                           Number of X - Variables   15
+                           Number of ETA - Variables  0
+                           Number of KSI - Variables  1
+                           Number of Observations   335
+                           Number of Groups           2
+
+ MULTIGROUP ONE FACTOR SAME PATTERN UNITED STATES                               
+
+         Covariance Matrix       
+
+                  x1         x2         x3         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+       x1      0.570
+       x2      0.213      0.835
+       x3      0.294      0.221      0.746
+       x4      0.176      0.521      0.294      0.870
+       x6      0.103      0.061      0.047      0.039      0.615
+       x8      0.168      0.090      0.039      0.075      0.466      1.030
+      x11      0.179      0.139      0.105      0.138      0.436      0.856
+       x5      0.137      0.076      0.079      0.066      0.164      0.178
+       x7      0.162      0.032      0.098      0.041      0.188      0.267
+       x9      0.081      0.003      0.016      0.025      0.166      0.180
+      x10      0.160      0.131      0.100      0.104      0.281      0.254
+      x12      0.130      0.049      0.077      0.043      0.158      0.179
+      x13      0.066     -0.015     -0.013     -0.002      0.123      0.210
+      x14      0.094      0.006      0.003      0.022      0.127      0.182
+      x15      0.075      0.098      0.093      0.105      0.152      0.263
+
+         Covariance Matrix       
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+      x11      1.343
+       x5      0.131      0.420
+       x7      0.247      0.197      0.507
+       x9      0.137      0.196      0.182      0.333
+      x10      0.303      0.188      0.204      0.247      0.753
+      x12      0.160      0.177      0.169      0.204      0.207      0.303
+      x13      0.191      0.115      0.165      0.186      0.148      0.156
+      x14      0.150      0.123      0.156      0.156      0.119      0.158
+      x15      0.308      0.084      0.143      0.122      0.130      0.131
+
+         Covariance Matrix       
+
+                 x13        x14        x15   
+            --------   --------   --------
+      x13      0.792
+      x14      0.579      0.610
+      x15      0.521      0.444      1.156
+
+ MULTIGROUP ONE FACTOR SAME PATTERN                                             
+
+         Covariance Matrix       
+
+                  x1         x2         x3         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+       x1      0.453
+       x2      0.179      0.837
+       x3      0.190      0.260      0.604
+       x4      0.163      0.562      0.280      0.904
+       x6      0.043      0.024      0.154      0.048      0.835
+       x8      0.094      0.092      0.175      0.130      0.501      1.092
+      x11      0.038      0.053      0.204      0.099      0.623      0.845
+       x5      0.157      0.094      0.147      0.108      0.249      0.172
+       x7      0.091      0.120      0.122      0.121      0.245      0.292
+       x9      0.113      0.075      0.112      0.078      0.157      0.190
+      x10      0.127     -0.003      0.089      0.015      0.351      0.324
+      x12      0.100      0.072      0.095      0.034      0.268      0.275
+      x13      0.121      0.069      0.069      0.056      0.052      0.076
+      x14      0.104      0.114      0.080      0.096      0.073      0.086
+      x15      0.054      0.154      0.173      0.169      0.231      0.299
+
+         Covariance Matrix       
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+      x11      1.362
+       x5      0.192      0.581
+       x7      0.288      0.286      1.020
+       x9      0.213      0.228      0.290      0.432
+      x10      0.498      0.213      0.411      0.302      1.203
+      x12      0.373      0.243      0.230      0.197      0.316      0.567
+      x13      0.034      0.203      0.102      0.147      0.102      0.139
+      x14      0.079      0.148      0.079      0.131      0.087      0.146
+      x15      0.327      0.129      0.191      0.113      0.147      0.162
+
+         Covariance Matrix       
+
+                 x13        x14        x15   
+            --------   --------   --------
+      x13      0.648
+      x14      0.511      0.716
+      x15      0.390      0.407      1.297
+
+
+ MULTIGROUP ONE FACTOR SAME PATTERN UNITED STATES                               
+
+ Parameter Specifications
+
+         LAMBDA-X    
+
+            ONE FACT
+            --------
+       x1          0
+       x2          1
+       x3          2
+       x4          3
+       x6          4
+       x8          5
+      x11          6
+       x5          7
+       x7          8
+       x9          9
+      x10         10
+      x12         11
+      x13         12
+      x14         13
+      x15         14
+
+         PHI         
+
+            ONE FACT
+            --------
+                  15
+
+         THETA-DELTA 
+
+                  x1         x2         x3         x4         x6         x8
+            --------   --------   --------   --------   --------   --------
+                  16         17         18         19         20         21
+
+         THETA-DELTA 
+
+                 x11         x5         x7         x9        x10        x12
+            --------   --------   --------   --------   --------   --------
+                  22         23         24         25         26         27
+
+         THETA-DELTA 
+
+                 x13        x14        x15
+            --------   --------   --------
+                  28         29         30
+
+
+ MULTIGROUP ONE FACTOR SAME PATTERN                                             
+
+ Parameter Specifications
+
+         LAMBDA-X    
+
+            ONE FACT
+            --------
+       x1          0
+       x2         31
+       x3         32
+       x4         33
+       x6         34
+       x8         35
+      x11         36
+       x5         37
+       x7         38
+       x9         39
+      x10         40
+      x12         41
+      x13         42
+      x14         43
+      x15         44
+
+         PHI         
+
+            ONE FACT
+            --------
+                  45
+
+         THETA-DELTA 
+
+                  x1         x2         x3         x4         x6         x8
+            --------   --------   --------   --------   --------   --------
+                  46         47         48         49         50         51
+
+         THETA-DELTA 
+
+                 x11         x5         x7         x9        x10        x12
+            --------   --------   --------   --------   --------   --------
+                  52         53         54         55         56         57
+
+         THETA-DELTA 
+
+                 x13        x14        x15
+            --------   --------   --------
+                  58         59         60
+ 
+
+
+ MULTIGROUP ONE FACTOR SAME PATTERN UNITED STATES                               
+
+ Number of Iterations = 37
+
+ LISREL Estimates (Maximum Likelihood)                           
+
+         LAMBDA-X    
+
+            ONE FACT   
+            --------
+       x1      1.000
+       x2      0.523
+             (0.186)
+               2.807
+       x3      0.570
+             (0.179)
+               3.177
+       x4      0.522
+             (0.190)
+               2.750
+       x6      1.547
+             (0.241)
+               6.424
+       x8      2.000
+             (0.312)
+               6.421
+      x11      1.959
+             (0.326)
+               6.015
+       x5      1.301
+             (0.201)
+               6.468
+       x7      1.454
+             (0.223)
+               6.509
+       x9      1.380
+             (0.201)
+               6.859
+      x10      1.684
+             (0.264)
+               6.381
+      x12      1.336
+             (0.194)
+               6.890
+      x13      1.507
+             (0.250)
+               6.019
+      x14      1.378
+             (0.225)
+               6.133
+      x15      1.436
+             (0.270)
+               5.318
+
+         PHI         
+
+            ONE FACT   
+            --------
+               0.088
+             (0.024)
+               3.608
+
+         THETA-DELTA 
+
+                  x1         x2         x3         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               0.482      0.811      0.718      0.847      0.405      0.679
+             (0.037)    (0.061)    (0.054)    (0.063)    (0.033)    (0.055)
+              13.025     13.353     13.331     13.356     12.296     12.300
+
+         THETA-DELTA 
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               1.006      0.271      0.321      0.166      0.505      0.146
+             (0.079)    (0.022)    (0.026)    (0.015)    (0.041)    (0.013)
+              12.696     12.233     12.169     11.233     12.353     11.089
+
+         THETA-DELTA 
+
+                 x13        x14        x15   
+            --------   --------   --------
+               0.593      0.443      0.975
+             (0.047)    (0.035)    (0.075)
+              12.692     12.606     13.017
+
+         Squared Multiple Correlations for X - Variables         
+
+                  x1         x2         x3         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               0.154      0.029      0.038      0.027      0.342      0.341
+
+         Squared Multiple Correlations for X - Variables         
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               0.251      0.354      0.366      0.502      0.330      0.518
+
+         Squared Multiple Correlations for X - Variables         
+
+                 x13        x14        x15   
+            --------   --------   --------
+               0.252      0.273      0.157
+
+
+                         Group Goodness of Fit Statistics
+
+                      Contribution to Chi-Square = 1160.803
+                  Percentage Contribution to Chi-Square = 56.230
+ 
+                     Root Mean Square Residual (RMR) = 0.105
+                             Standardized RMR = 0.129
+                       Goodness of Fit Index (GFI) = 0.695
+
+ MULTIGROUP ONE FACTOR SAME PATTERN UNITED STATES                               
+
+ Within Group Standardized Solution           
+
+         LAMBDA-X    
+
+            ONE FACT   
+            --------
+       x1      0.296
+       x2      0.155
+       x3      0.169
+       x4      0.155
+       x6      0.458
+       x8      0.593
+      x11      0.580
+       x5      0.386
+       x7      0.431
+       x9      0.409
+      x10      0.499
+      x12      0.396
+      x13      0.446
+      x14      0.408
+      x15      0.425
+
+         PHI                                     
+
+            ONE FACT   
+            --------
+               1.000
+
+
+ MULTIGROUP ONE FACTOR SAME PATTERN                                             
+
+ Number of Iterations = 37
+
+ LISREL Estimates (Maximum Likelihood)                           
+
+         LAMBDA-X    
+
+            ONE FACT   
+            --------
+       x1      1.000
+       x2      0.968
+             (0.299)
+               3.242
+       x3      1.372
+             (0.313)
+               4.391
+       x4      1.043
+             (0.314)
+               3.325
+       x6      2.638
+             (0.506)
+               5.217
+       x8      3.038
+             (0.581)
+               5.226
+      x11      3.518
+             (0.667)
+               5.271
+       x5      1.978
+             (0.390)
+               5.073
+       x7      2.331
+             (0.477)
+               4.890
+       x9      1.781
+             (0.347)
+               5.134
+      x10      2.676
+             (0.537)
+               4.979
+      x12      2.173
+             (0.417)
+               5.217
+      x13      1.291
+             (0.308)
+               4.188
+      x14      1.315
+             (0.319)
+               4.119
+      x15      2.003
+             (0.457)
+               4.382
+
+         PHI         
+
+            ONE FACT   
+            --------
+               0.047
+             (0.017)
+               2.779
+
+         THETA-DELTA 
+
+                  x1         x2         x3         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               0.406      0.793      0.515      0.853      0.508      0.657
+             (0.032)    (0.062)    (0.041)    (0.067)    (0.045)    (0.058)
+              12.637     12.786     12.499     12.775     11.326     11.287
+
+         THETA-DELTA 
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               0.779      0.396      0.764      0.282      0.866      0.345
+             (0.070)    (0.034)    (0.063)    (0.024)    (0.072)    (0.030)
+              11.070     11.775     12.097     11.614     11.962     11.327
+
+         THETA-DELTA 
+
+                 x13        x14        x15   
+            --------   --------   --------
+               0.569      0.634      1.108
+             (0.045)    (0.050)    (0.089)
+              12.583     12.607     12.503
+
+         Squared Multiple Correlations for X - Variables         
+
+                  x1         x2         x3         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               0.104      0.053      0.147      0.057      0.392      0.398
+
+         Squared Multiple Correlations for X - Variables         
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               0.428      0.317      0.251      0.346      0.280      0.392
+
+         Squared Multiple Correlations for X - Variables         
+
+                 x13        x14        x15   
+            --------   --------   --------
+               0.121      0.114      0.146
+
+
+                        Global Goodness of Fit Statistics
+
+                             Degrees of Freedom = 180
+               Minimum Fit Function Chi-Square = 2064.386 (P = 0.0)
+       Normal Theory Weighted Least Squares Chi-Square = 2169.275 (P = 0.0)
+               Estimated Non-centrality Parameter (NCP) = 1989.275
+          90 Percent Confidence Interval for NCP = (1842.912 ; 2143.025)
+ 
+                        Minimum Fit Function Value = 2.975
+                Population Discrepancy Function Value (F0) = 2.866
+             90 Percent Confidence Interval for F0 = (2.655 ; 3.088)
+             Root Mean Square Error of Approximation (RMSEA) = 0.178
+            90 Percent Confidence Interval for RMSEA = (0.172 ; 0.185)
+               P-Value for Test of Close Fit (RMSEA < 0.05) = 0.000
+ 
+                  Expected Cross-Validation Index (ECVI) = 3.299
+            90 Percent Confidence Interval for ECVI = (3.088 ; 3.520)
+                         ECVI for Saturated Model = 0.346
+                       ECVI for Independence Model = 8.483
+ 
+     Chi-Square for Independence Model with 210 Degrees of Freedom = 5857.408
+                           Independence AIC = 5917.408
+                               Model AIC = 2289.275
+                             Saturated AIC = 480.000
+                           Independence CAIC = 6083.769
+                              Model CAIC = 2621.996
+                            Saturated CAIC = 1810.884
+ 
+                          Normed Fit Index (NFI) = 0.648
+                       Non-Normed Fit Index (NNFI) = 0.611
+                    Parsimony Normed Fit Index (PNFI) = 0.555
+                       Comparative Fit Index (CFI) = 0.666
+                       Incremental Fit Index (IFI) = 0.668
+                         Relative Fit Index (RFI) = 0.589
+ 
+                             Critical N (CN) = 77.331
+ 
+
+
+                         Group Goodness of Fit Statistics
+
+                       Contribution to Chi-Square = 903.584
+                  Percentage Contribution to Chi-Square = 43.770
+ 
+                     Root Mean Square Residual (RMR) = 0.103
+                             Standardized RMR = 0.126
+                       Goodness of Fit Index (GFI) = 0.718
+
+ MULTIGROUP ONE FACTOR SAME PATTERN                                             
+
+ Within Group Standardized Solution           
+
+         LAMBDA-X    
+
+            ONE FACT   
+            --------
+       x1      0.217
+       x2      0.210
+       x3      0.298
+       x4      0.226
+       x6      0.572
+       x8      0.659
+      x11      0.763
+       x5      0.429
+       x7      0.506
+       x9      0.387
+      x10      0.581
+      x12      0.472
+      x13      0.280
+      x14      0.285
+      x15      0.435
+
+         PHI                                     
+
+            ONE FACT   
+            --------
+               1.000
+
+ MULTIGROUP ONE FACTOR SAME PATTERN UNITED STATES                               
+
+ Common Metric Standardized Solution           
+
+         LAMBDA-X    
+
+            ONE FACT   
+            --------
+       x1      0.261
+       x2      0.137
+       x3      0.149
+       x4      0.136
+       x6      0.404
+       x8      0.522
+      x11      0.512
+       x5      0.340
+       x7      0.380
+       x9      0.360
+      x10      0.440
+      x12      0.349
+      x13      0.393
+      x14      0.360
+      x15      0.375
+
+         PHI                                     
+
+            ONE FACT   
+            --------
+               1.287
+
+ MULTIGROUP ONE FACTOR SAME PATTERN                                             
+
+ Common Metric Standardized Solution           
+
+         LAMBDA-X    
+
+            ONE FACT   
+            --------
+       x1      0.261
+       x2      0.253
+       x3      0.358
+       x4      0.272
+       x6      0.689
+       x8      0.793
+      x11      0.919
+       x5      0.517
+       x7      0.609
+       x9      0.465
+      x10      0.699
+      x12      0.567
+      x13      0.337
+      x14      0.343
+      x15      0.523
+
+         PHI                                     
+
+            ONE FACT   
+            --------
+               0.691
+
+                           Time used:    0.170 Seconds

@@ -1,0 +1,341 @@
+
+                                DATE:  8/ 9/2007
+                                  TIME: 13:40
+
+
+                         LISREL 8.80 (STUDENT EDITION)
+
+                                       BY
+
+                         Karl G. J”reskog & Dag S”rbom
+
+
+
+                    This program is published exclusively by
+                    Scientific Software International, Inc.
+                       7383 N. Lincoln Avenue, Suite 100
+                        Lincolnwood, IL 60712, U.S.A. 
+            Phone: (800)247-6113, (847)675-0720, Fax: (847)675-2140
+        Copyright by Scientific Software International, Inc., 1981-2006 
+          Use of this program is subject to the terms specified in the
+                        Universal Copyright Convention.
+                          Website: www.ssicentral.com
+
+ The following lines were read from file C:\Documents and Settings\jbudden\Desktop\SIOP\ANALYSES\ONE FACTOR ASIA.LS8:
+
+ CFA
+ DA NI=15 NO=335 MA=CM
+ LA
+ x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15
+ KM FU FI=ASIALISRELDATA.txt
+ SD
+ .673 .915 .777 .951 .762 .914 1.010 1.045 .657 1.097 1.167 .753 .805 .846 1.139
+ SE
+ 1 2 3 4 6 8 11 5 7 9 10 12 13 14 15 /
+ MO NX=15 NK=1 LX=FU,FR TD=DI,FR PH=SY,FR
+ LK
+ 'ONE FACTOR'
+ PA LX
+ 0
+ 1
+ 1
+ 1
+ 1
+ 1
+ 1
+ 1
+ 1
+ 1
+ 1
+ 1
+ 1
+ 1
+ 1
+ VA 1.0 LX(1,1)
+ PATH DIAGRAM
+ OU ME=ML ND=3 SS
+
+ CFA                                                                            
+
+                           Number of Input Variables 15
+                           Number of Y - Variables    0
+                           Number of X - Variables   15
+                           Number of ETA - Variables  0
+                           Number of KSI - Variables  1
+                           Number of Observations   335
+
+ CFA                                                                            
+
+         Covariance Matrix       
+
+                  x1         x2         x3         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+       x1      0.453
+       x2      0.179      0.837
+       x3      0.190      0.260      0.604
+       x4      0.163      0.562      0.280      0.904
+       x6      0.043      0.024      0.154      0.048      0.835
+       x8      0.094      0.092      0.175      0.130      0.501      1.092
+      x11      0.038      0.053      0.204      0.099      0.623      0.845
+       x5      0.157      0.094      0.147      0.108      0.249      0.172
+       x7      0.091      0.120      0.122      0.121      0.245      0.292
+       x9      0.113      0.075      0.112      0.078      0.157      0.190
+      x10      0.127     -0.003      0.089      0.015      0.351      0.324
+      x12      0.100      0.072      0.095      0.034      0.268      0.275
+      x13      0.121      0.069      0.069      0.056      0.052      0.076
+      x14      0.104      0.114      0.080      0.096      0.073      0.086
+      x15      0.054      0.154      0.173      0.169      0.231      0.299
+
+         Covariance Matrix       
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+      x11      1.362
+       x5      0.192      0.581
+       x7      0.288      0.286      1.020
+       x9      0.213      0.228      0.290      0.432
+      x10      0.498      0.213      0.411      0.302      1.203
+      x12      0.373      0.243      0.230      0.197      0.316      0.567
+      x13      0.034      0.203      0.102      0.147      0.102      0.139
+      x14      0.079      0.148      0.079      0.131      0.087      0.146
+      x15      0.327      0.129      0.191      0.113      0.147      0.162
+
+         Covariance Matrix       
+
+                 x13        x14        x15   
+            --------   --------   --------
+      x13      0.648
+      x14      0.511      0.716
+      x15      0.390      0.407      1.297
+
+
+ CFA                                                                            
+
+ Parameter Specifications
+
+         LAMBDA-X    
+
+            ONE FACT
+            --------
+       x1          0
+       x2          1
+       x3          2
+       x4          3
+       x6          4
+       x8          5
+      x11          6
+       x5          7
+       x7          8
+       x9          9
+      x10         10
+      x12         11
+      x13         12
+      x14         13
+      x15         14
+
+         PHI         
+
+            ONE FACT
+            --------
+                  15
+
+         THETA-DELTA 
+
+                  x1         x2         x3         x4         x6         x8
+            --------   --------   --------   --------   --------   --------
+                  16         17         18         19         20         21
+
+         THETA-DELTA 
+
+                 x11         x5         x7         x9        x10        x12
+            --------   --------   --------   --------   --------   --------
+                  22         23         24         25         26         27
+
+         THETA-DELTA 
+
+                 x13        x14        x15
+            --------   --------   --------
+                  28         29         30
+ 
+
+
+ CFA                                                                            
+
+ Number of Iterations = 27
+
+ LISREL Estimates (Maximum Likelihood)                           
+
+         LAMBDA-X    
+
+            ONE FACT   
+            --------
+       x1      1.000
+       x2      0.968
+             (0.299)
+               3.242
+       x3      1.372
+             (0.313)
+               4.391
+       x4      1.043
+             (0.314)
+               3.325
+       x6      2.638
+             (0.506)
+               5.217
+       x8      3.038
+             (0.581)
+               5.226
+      x11      3.518
+             (0.667)
+               5.271
+       x5      1.978
+             (0.390)
+               5.073
+       x7      2.331
+             (0.477)
+               4.890
+       x9      1.781
+             (0.347)
+               5.134
+      x10      2.676
+             (0.537)
+               4.979
+      x12      2.173
+             (0.417)
+               5.217
+      x13      1.291
+             (0.308)
+               4.188
+      x14      1.315
+             (0.319)
+               4.119
+      x15      2.003
+             (0.457)
+               4.382
+
+         PHI         
+
+            ONE FACT   
+            --------
+               0.047
+             (0.017)
+               2.779
+
+         THETA-DELTA 
+
+                  x1         x2         x3         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               0.406      0.793      0.515      0.853      0.508      0.657
+             (0.032)    (0.062)    (0.041)    (0.067)    (0.045)    (0.058)
+              12.637     12.786     12.499     12.775     11.326     11.287
+
+         THETA-DELTA 
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               0.779      0.396      0.764      0.282      0.866      0.345
+             (0.070)    (0.034)    (0.063)    (0.024)    (0.072)    (0.030)
+              11.070     11.775     12.097     11.614     11.962     11.327
+
+         THETA-DELTA 
+
+                 x13        x14        x15   
+            --------   --------   --------
+               0.569      0.634      1.108
+             (0.045)    (0.050)    (0.089)
+              12.583     12.607     12.503
+
+         Squared Multiple Correlations for X - Variables         
+
+                  x1         x2         x3         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               0.104      0.053      0.147      0.057      0.392      0.398
+
+         Squared Multiple Correlations for X - Variables         
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               0.428      0.317      0.251      0.346      0.280      0.392
+
+         Squared Multiple Correlations for X - Variables         
+
+                 x13        x14        x15   
+            --------   --------   --------
+               0.121      0.114      0.146
+
+
+                           Goodness of Fit Statistics
+
+                             Degrees of Freedom = 90
+               Minimum Fit Function Chi-Square = 903.584 (P = 0.0)
+       Normal Theory Weighted Least Squares Chi-Square = 983.172 (P = 0.0)
+                Estimated Non-centrality Parameter (NCP) = 893.172
+           90 Percent Confidence Interval for NCP = (796.086 ; 997.691)
+ 
+                        Minimum Fit Function Value = 2.705
+                Population Discrepancy Function Value (F0) = 2.674
+             90 Percent Confidence Interval for F0 = (2.383 ; 2.987)
+             Root Mean Square Error of Approximation (RMSEA) = 0.172
+            90 Percent Confidence Interval for RMSEA = (0.163 ; 0.182)
+               P-Value for Test of Close Fit (RMSEA < 0.05) = 0.000
+ 
+                  Expected Cross-Validation Index (ECVI) = 3.123
+            90 Percent Confidence Interval for ECVI = (2.833 ; 3.436)
+                         ECVI for Saturated Model = 0.719
+                       ECVI for Independence Model = 7.808
+ 
+     Chi-Square for Independence Model with 105 Degrees of Freedom = 2577.828
+                           Independence AIC = 2607.828
+                               Model AIC = 1043.172
+                             Saturated AIC = 240.000
+                           Independence CAIC = 2680.040
+                              Model CAIC = 1187.596
+                             Saturated CAIC = 817.696
+ 
+                          Normed Fit Index (NFI) = 0.649
+                       Non-Normed Fit Index (NNFI) = 0.616
+                    Parsimony Normed Fit Index (PNFI) = 0.557
+                       Comparative Fit Index (CFI) = 0.671
+                       Incremental Fit Index (IFI) = 0.673
+                         Relative Fit Index (RFI) = 0.591
+ 
+                             Critical N (CN) = 46.880
+ 
+ 
+                     Root Mean Square Residual (RMR) = 0.103
+                             Standardized RMR = 0.126
+                       Goodness of Fit Index (GFI) = 0.718
+                  Adjusted Goodness of Fit Index (AGFI) = 0.624
+                  Parsimony Goodness of Fit Index (PGFI) = 0.539
+
+ CFA                                                                            
+
+ Standardized Solution           
+
+         LAMBDA-X    
+
+            ONE FACT   
+            --------
+       x1      0.217
+       x2      0.210
+       x3      0.298
+       x4      0.226
+       x6      0.572
+       x8      0.659
+      x11      0.763
+       x5      0.429
+       x7      0.506
+       x9      0.387
+      x10      0.581
+      x12      0.472
+      x13      0.280
+      x14      0.285
+      x15      0.435
+
+         PHI                                     
+
+            ONE FACT   
+            --------
+               1.000
+
+                           Time used:    0.090 Seconds
