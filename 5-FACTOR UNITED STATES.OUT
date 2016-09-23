@@ -1,0 +1,353 @@
+
+                                DATE:  8/ 9/2007
+                                  TIME: 13:41
+
+
+                         LISREL 8.80 (STUDENT EDITION)
+
+                                       BY
+
+                         Karl G. J”reskog & Dag S”rbom
+
+
+
+                    This program is published exclusively by
+                    Scientific Software International, Inc.
+                       7383 N. Lincoln Avenue, Suite 100
+                        Lincolnwood, IL 60712, U.S.A. 
+            Phone: (800)247-6113, (847)675-0720, Fax: (847)675-2140
+        Copyright by Scientific Software International, Inc., 1981-2006 
+          Use of this program is subject to the terms specified in the
+                        Universal Copyright Convention.
+                          Website: www.ssicentral.com
+
+ The following lines were read from file C:\Documents and Settings\jbudden\Desktop\SIOP\ANALYSES\5-FACTOR UNITED STATES.LS8:
+
+ CFA
+ DA NI=15 NO=361 MA=CM
+ LA
+ x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15
+ KM FU FI=USLISRELDATA.txt
+ SD
+ .755 .914 .864 .933 .648 .784 .712 1.015 .577 .868 1.159 .550 .890 .781 1.075
+ SE
+ 1 3 2 4 6 8 11 5 7 9 10 12 13 14 15 /
+ MO NX=15 NK=5 LX=FU,FI TD=DI,FR PH=SY,FR
+ LK
+ 'JOB CONTENT' 'JOB PREDICTIVE' 'TESTING ENVIRONMENT' 'USABILITY' 'PREVIOUS JOB SEARCH'
+ PA LX
+ 0 0 0 0 0
+ 1 0 0 0 0
+ 0 0 0 0 0
+ 0 1 0 0 0
+ 0 0 0 0 0
+ 0 0 1 0 0
+ 0 0 1 0 0
+ 0 0 0 0 0
+ 0 0 0 1 0
+ 0 0 0 1 0
+ 0 0 0 1 0
+ 0 0 0 1 0
+ 0 0 0 0 0
+ 0 0 0 0 1
+ 0 0 0 0 1
+ VA 1.0 LX(1,1) LX(3,2) LX(5,3) LX(8,4) LX(13,5)
+ PATH DIAGRAM
+ OU ME=ML ND=3 SS
+
+ CFA                                                                            
+
+                           Number of Input Variables 15
+                           Number of Y - Variables    0
+                           Number of X - Variables   15
+                           Number of ETA - Variables  0
+                           Number of KSI - Variables  5
+                           Number of Observations   361
+
+ CFA                                                                            
+
+         Covariance Matrix       
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+       x1      0.570
+       x3      0.294      0.746
+       x2      0.213      0.221      0.835
+       x4      0.176      0.294      0.521      0.870
+       x6      0.103      0.047      0.061      0.039      0.615
+       x8      0.168      0.039      0.090      0.075      0.466      1.030
+      x11      0.179      0.105      0.139      0.138      0.436      0.856
+       x5      0.137      0.079      0.076      0.066      0.164      0.178
+       x7      0.162      0.098      0.032      0.041      0.188      0.267
+       x9      0.081      0.016      0.003      0.025      0.166      0.180
+      x10      0.160      0.100      0.131      0.104      0.281      0.254
+      x12      0.130      0.077      0.049      0.043      0.158      0.179
+      x13      0.066     -0.013     -0.015     -0.002      0.123      0.210
+      x14      0.094      0.003      0.006      0.022      0.127      0.182
+      x15      0.075      0.093      0.098      0.105      0.152      0.263
+
+         Covariance Matrix       
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+      x11      1.343
+       x5      0.131      0.420
+       x7      0.247      0.197      0.507
+       x9      0.137      0.196      0.182      0.333
+      x10      0.303      0.188      0.204      0.247      0.753
+      x12      0.160      0.177      0.169      0.204      0.207      0.303
+      x13      0.191      0.115      0.165      0.186      0.148      0.156
+      x14      0.150      0.123      0.156      0.156      0.119      0.158
+      x15      0.308      0.084      0.143      0.122      0.130      0.131
+
+         Covariance Matrix       
+
+                 x13        x14        x15   
+            --------   --------   --------
+      x13      0.792
+      x14      0.579      0.610
+      x15      0.521      0.444      1.156
+
+
+ CFA                                                                            
+
+ Parameter Specifications
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS
+            --------   --------   --------   --------   --------
+       x1          0          0          0          0          0
+       x3          1          0          0          0          0
+       x2          0          0          0          0          0
+       x4          0          2          0          0          0
+       x6          0          0          0          0          0
+       x8          0          0          3          0          0
+      x11          0          0          4          0          0
+       x5          0          0          0          0          0
+       x7          0          0          0          5          0
+       x9          0          0          0          6          0
+      x10          0          0          0          7          0
+      x12          0          0          0          8          0
+      x13          0          0          0          0          0
+      x14          0          0          0          0          9
+      x15          0          0          0          0         10
+
+         PHI         
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS
+            --------   --------   --------   --------   --------
+ JOB CONT         11
+ JOB PRED         12         13
+ TESTING          14         15         16
+ USABILIT         17         18         19         20
+ PREVIOUS         21         22         23         24         25
+
+         THETA-DELTA 
+
+                  x1         x3         x2         x4         x6         x8
+            --------   --------   --------   --------   --------   --------
+                  26         27         28         29         30         31
+
+         THETA-DELTA 
+
+                 x11         x5         x7         x9        x10        x12
+            --------   --------   --------   --------   --------   --------
+                  32         33         34         35         36         37
+
+         THETA-DELTA 
+
+                 x13        x14        x15
+            --------   --------   --------
+                  38         39         40
+ 
+
+
+ CFA                                                                            
+
+ Number of Iterations = 12
+
+ LISREL Estimates (Maximum Likelihood)                           
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+       x1      1.000       - -        - -        - -        - - 
+       x3      0.929       - -        - -        - -        - - 
+             (0.134)
+               6.917
+       x2       - -       1.000       - -        - -        - - 
+       x4       - -       0.986       - -        - -        - - 
+                        (0.133)
+                          7.425
+       x6       - -        - -       1.000       - -        - - 
+       x8       - -        - -       1.844       - -        - - 
+                                   (0.148)
+                                    12.454
+      x11       - -        - -       1.796       - -        - - 
+                                   (0.146)
+                                    12.287
+       x5       - -        - -        - -       1.000       - - 
+       x7       - -        - -        - -       1.017       - - 
+                                              (0.106)
+                                                9.557
+       x9       - -        - -        - -       1.100       - - 
+                                              (0.093)
+                                               11.861
+      x10       - -        - -        - -       1.202       - - 
+                                              (0.129)
+                                                9.315
+      x12       - -        - -        - -       1.030       - - 
+                                              (0.088)
+                                               11.739
+      x13       - -        - -        - -        - -       1.000
+      x14       - -        - -        - -        - -       0.868
+                                                         (0.044)
+                                                          19.669
+      x15       - -        - -        - -        - -       0.775
+                                                         (0.064)
+                                                          12.144
+
+         PHI         
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+ JOB CONT      0.316
+             (0.057)
+               5.572
+ JOB PRED      0.222      0.529
+             (0.037)    (0.088)
+               6.001      6.006
+ TESTING       0.075      0.053      0.256
+             (0.021)    (0.024)    (0.040)
+               3.546      2.165      6.439
+ USABILIT      0.098      0.042      0.104      0.175
+             (0.019)    (0.021)    (0.017)    (0.027)
+               5.070      2.045      6.061      6.371
+ PREVIOUS      0.059      0.009      0.117      0.155      0.667
+             (0.032)    (0.038)    (0.026)    (0.025)    (0.064)
+               1.864      0.232      4.433      6.306     10.416
+
+         THETA-DELTA 
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               0.254      0.474      0.307      0.357      0.359      0.161
+             (0.046)    (0.051)    (0.070)    (0.070)    (0.030)    (0.045)
+               5.507      9.355      4.374      5.125     11.903      3.608
+
+         THETA-DELTA 
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               0.519      0.245      0.326      0.122      0.501      0.117
+             (0.057)    (0.021)    (0.027)    (0.013)    (0.041)    (0.012)
+               9.133     11.698     12.088      9.155     12.209      9.519
+
+         THETA-DELTA 
+
+                 x13        x14        x15   
+            --------   --------   --------
+               0.125      0.108      0.755
+             (0.028)    (0.022)    (0.059)
+               4.447      4.995     12.738
+
+         Squared Multiple Correlations for X - Variables         
+
+                  x1         x3         x2         x4         x6         x8   
+            --------   --------   --------   --------   --------   --------
+               0.554      0.365      0.633      0.590      0.416      0.844
+
+         Squared Multiple Correlations for X - Variables         
+
+                 x11         x5         x7         x9        x10        x12   
+            --------   --------   --------   --------   --------   --------
+               0.614      0.416      0.356      0.634      0.335      0.612
+
+         Squared Multiple Correlations for X - Variables         
+
+                 x13        x14        x15   
+            --------   --------   --------
+               0.842      0.824      0.347
+
+
+                           Goodness of Fit Statistics
+
+                             Degrees of Freedom = 80
+               Minimum Fit Function Chi-Square = 185.082 (P = 0.00)
+       Normal Theory Weighted Least Squares Chi-Square = 182.304 (P = 0.00)
+                Estimated Non-centrality Parameter (NCP) = 102.304
+           90 Percent Confidence Interval for NCP = (66.864 ; 145.468)
+ 
+                        Minimum Fit Function Value = 0.514
+                Population Discrepancy Function Value (F0) = 0.284
+             90 Percent Confidence Interval for F0 = (0.186 ; 0.404)
+             Root Mean Square Error of Approximation (RMSEA) = 0.0596
+           90 Percent Confidence Interval for RMSEA = (0.0482 ; 0.0711)
+              P-Value for Test of Close Fit (RMSEA < 0.05) = 0.0815
+ 
+                  Expected Cross-Validation Index (ECVI) = 0.729
+            90 Percent Confidence Interval for ECVI = (0.630 ; 0.849)
+                         ECVI for Saturated Model = 0.667
+                       ECVI for Independence Model = 9.193
+ 
+     Chi-Square for Independence Model with 105 Degrees of Freedom = 3279.581
+                           Independence AIC = 3309.581
+                               Model AIC = 262.304
+                             Saturated AIC = 240.000
+                           Independence CAIC = 3382.914
+                               Model CAIC = 457.859
+                             Saturated CAIC = 826.665
+ 
+                          Normed Fit Index (NFI) = 0.944
+                       Non-Normed Fit Index (NNFI) = 0.957
+                    Parsimony Normed Fit Index (PNFI) = 0.719
+                       Comparative Fit Index (CFI) = 0.967
+                       Incremental Fit Index (IFI) = 0.967
+                         Relative Fit Index (RFI) = 0.926
+ 
+                            Critical N (CN) = 219.496
+ 
+ 
+                     Root Mean Square Residual (RMR) = 0.0409
+                            Standardized RMR = 0.0571
+                       Goodness of Fit Index (GFI) = 0.937
+                  Adjusted Goodness of Fit Index (AGFI) = 0.905
+                  Parsimony Goodness of Fit Index (PGFI) = 0.625
+
+ CFA                                                                            
+
+ Standardized Solution           
+
+         LAMBDA-X    
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+       x1      0.562       - -        - -        - -        - - 
+       x3      0.522       - -        - -        - -        - - 
+       x2       - -       0.727       - -        - -        - - 
+       x4       - -       0.717       - -        - -        - - 
+       x6       - -        - -       0.506       - -        - - 
+       x8       - -        - -       0.932       - -        - - 
+      x11       - -        - -       0.908       - -        - - 
+       x5       - -        - -        - -       0.418       - - 
+       x7       - -        - -        - -       0.425       - - 
+       x9       - -        - -        - -       0.459       - - 
+      x10       - -        - -        - -       0.502       - - 
+      x12       - -        - -        - -       0.430       - - 
+      x13       - -        - -        - -        - -       0.817
+      x14       - -        - -        - -        - -       0.709
+      x15       - -        - -        - -        - -       0.633
+
+         PHI                                     
+
+            JOB CONT   JOB PRED   TESTING    USABILIT   PREVIOUS   
+            --------   --------   --------   --------   --------
+ JOB CONT      1.000
+ JOB PRED      0.544      1.000
+ TESTING       0.264      0.143      1.000
+ USABILIT      0.416      0.138      0.492      1.000
+ PREVIOUS      0.129      0.015      0.283      0.455      1.000
+
+                           Time used:    0.120 Seconds
